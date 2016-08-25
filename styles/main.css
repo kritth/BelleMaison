@@ -24,6 +24,27 @@ footer {
 	width: 100%;
 }
 
+/* Page title */
+h1.page-title {
+	border-bottom: 2px solid black; 
+	padding-bottom: 0px; 
+	margin-bottom: 20px;
+	font-size: 300%;
+}
+
+/* Section title */
+h2.title {
+	display: inline-block;
+	padding-right: 20px;
+	padding-left: 30px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+	letter-spacing: 5px;
+	font-size: 200%;
+}
+
 /* global paragraph setting */
 p.paragraph {
 	font-size: 90%;
@@ -79,6 +100,27 @@ div.page-layout {
 	width: 100%;
 }
 
+/* Floating message division */
+div.floating-panel {
+	background-color: rgba(166, 178, 108, 0.65);
+	position: relative;
+	width: 40vw;
+	min-width: 150px;
+	top: 40%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 40px;
+	border-radius: 20px;
+}
+
+/* Floating message */
+div.floating-panel span.floating-message {
+	letter-spacing: 5px;
+	text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.4);
+}
+
+/***********************************EXPLORE SECTION***************************************************/
+
 /* Anchor for explore section */
 div.explore-anchor {
 	top: 70vh;
@@ -93,28 +135,55 @@ div.explore-div {
 	padding-top: 30px;
 	padding-bottom: 60px;
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	text-align:center;
 	z-index: 100;
 }
 
-/* Floating message division */
-div.floating-panel {
-	background-color: rgba(166, 178, 108, 0.65);
-	position: relative;
-	width: 40vw;
-	min-width: 200px;
-	top: 40%;
-	margin: 0 auto;
+div.explore-div section.property-link {
+	display: inline-block;
+	width: 120px;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
 	text-align: center;
-	padding: 40px;
+	vertical-align: top;
 }
 
-/* Floating message */
-div.floating-panel span.floating-message {
-	letter-spacing: 5px;
-	text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.4);
+div.explore-div section.property-link img {
+	height: 100px;
+	width: 100px;
+	opacity: 0.5;
+}
+
+div.explore-div section.property-link:hover img {
+	opacity: 1;
+}
+
+div.explore-div section.property-link button {
+	color: transparent;
+	background-color: inherit;
+	padding: 5px 20px 5px 20px;
+	font-size: 100%;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	border-top: 2px solid transparent;
+	outline: none;
+}
+
+div.explore-div section.property-link:hover button {
+	color: black;
+	border-top: 2px solid black;
 }
 
 /*************************************WHY US SECTION**************************************************/
+
+div.why-us-anchor {
+	position: relative;
+	top: 5vh;
+}
 
 div.why-us-div {
 	background-color: rgb(230, 230, 230);
@@ -187,14 +256,10 @@ div.partners-div img {
 	display: inline-block;
 }
 
-div.partners-div h2 {
-	width: 20vw;
-	margin: 0 auto;
-	margin-top: 40px;
-	margin-bottom: 40px;
-	border-bottom: 2px solid rgba(0, 0, 0, 0.2);
-	letter-spacing: 5px;
-	font-size: 200%;
+div.partners-div img.vertical {
+	width: 150px;
+	height: auto;
+	vertical-align: top;
 }
 
 /*************************************PARALLAX EFFECT*************************************************/

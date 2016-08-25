@@ -4,8 +4,8 @@ Real estate website created for the project in Java Web Programming Diploma for 
 
 ## TODO List:
 ### index.html
-- Change Explore section to include icon to link to property page.
-- Alter some styling for Why Us? section
+- ~~Change Explore section to include icon to link to property page.~~
+- ~~Alter some styling for Why Us? section~~
 - Scrollable div on Testimonial section.
 - Create form for Contact Us section containing form and JS to send data over.
 - Create footer contains misc pages (maynot need to implement them all)
