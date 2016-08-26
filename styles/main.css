@@ -248,6 +248,22 @@ article.advantage-layout p {
 	margin: 0px auto;
 }
 
+article.advantage-layout:hover {
+	background-color: black;
+}
+
+article.advantage-layout:hover img {
+	-webkit-filter: invert(100%);
+}
+
+article.advantage-layout:hover h4 {
+	color: white;
+}
+
+article.advantage-layout:hover p {
+	color: rgba(200, 200, 200, 1);
+}
+
 /*************************************PARTNERS SECTION************************************************/
 
 div.partners-div {
