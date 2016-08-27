@@ -1,0 +1,117 @@
+/*************************************WHY US SECTION**************************************************/
+
+div.why-us-anchor {
+	position: relative;
+	top: 5vh;
+}
+
+div.why-us-div {
+	background-color: rgb(230, 230, 230);
+	position: relative;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
+	z-index: 100;
+}
+
+div.why-us-div table {
+	margin: 0 auto;
+	border-spacing: 10px;
+}
+
+div.why-us-div table tr {
+	vertical-align: top;
+}
+
+div.why-us-div table tr td {
+	background-color: white;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+article.advantage-layout {
+	background-color: white;
+	width: 15vw;
+	display: inline-block;
+	min-height: 300px;
+	min-width: 200px;
+	vertical-align: top;
+	padding-top: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+article.advantage-layout img {
+	width: 100px;
+	height: 100px;
+}
+
+article.advantage-layout p {
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 90%;
+	width: 80%;
+	margin: 0px auto;
+}
+
+article.advantage-layout:hover {
+	background-color: black;
+}
+
+article.advantage-layout:hover img {
+	-webkit-filter: invert(100%);
+}
+
+article.advantage-layout:hover h4 {
+	color: white;
+}
+
+article.advantage-layout:hover p {
+	color: rgba(200, 200, 200, 1);
+}
+
+/*************************************PARTNERS SECTION************************************************/
+
+div.partners-div {
+	background-color: white;	
+	position: relative;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
+	z-index: 50;
+}
+
+div.partners-div img {
+	height: 100px;
+	width: auto;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	display: inline-block;
+}
+
+div.partners-div img.vertical {
+	width: 150px;
+	height: auto;
+	vertical-align: top;
+}
+
+/***************BG******************/
+.overlay.overlay-3 {
+	background-color: rgba(23, 46, 13, 0.65);
+}
+
+.overlay-3.overlay-bottom {
+	top: 20vh;
+}
+
+.parallax-3 {
+	height: 30vh;
+}
+
+.bgimg-3 {
+	background-image: url("../images/parallax-3.jpg");
+	height: 50vh;
+}
