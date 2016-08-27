@@ -4,12 +4,13 @@
 		<title>Belle Maison Real Estate</title>
 		<link rel="shortcut icon" type="image/x-icon" href="images/belle-maison.ico">
 		<link rel="stylesheet" type="text/css" href="styles/main.css">
+		<link rel="stylesheet" type="text/css" href="styles/home-section.css">
+		<link rel="stylesheet" type="text/css" href="styles/explore-section.css">
 	</head>
 	<body>
 		<div class="page-layout">
 			<!-- Header section -->
-			<img src="images/belle-maison-logo.png" alt="logo" class="logo">
-			<header class="center">
+			<header class="top-menu center">
 				<table class="no-space">
 					<tr>
 						<td style="vertical-align: bottom">
@@ -40,19 +41,69 @@
 					</tr>
 				</table>
 			</header>
-			
 			<!-- Body section -->
 			<section class="body-layout">
+				<a name="top"></a>
+				
 				<!-- BG 1 -->
-				<div class="bgimg-1">
-					<a name="top"></a>
-					<div class="floating-panel">
-						<span class="floating-message">
-							<h1 class="page-title">Belle Maison</h1>
-							<h3>One click for the first step in your new home</h3>
-						</span>
-					</div>
+				<div class="parallax-1">
 					<div class="overlay overlay-1 overlay-bottom"></div>
+					<div class="home-curtain"
+						data-bottom-top="opacity: 0"
+						data-center="opacity: 0"
+						data-top-bottom="opacity: 1"
+						data-anchor-target=".parallax-1"></div>
+					<div class="bgimg-1"
+						data-center="background-position: 50% 0px;"
+						data-top-bottom="background-position: 50% -400px;"
+						data-anchor-target=".parallax-1"
+						data-smooth-scrolling="off">
+						<div class="floating-panel"
+							data-center="top: 40vh"
+							data-top-bottom="top: 95vh"
+							data-anchor-target=".parallax-1"
+							data-smooth-scrolling="off">
+							<span class="floating-message">
+								<h1 class="page-title">Belle Maison</h1>
+								<h3>One click for the first step in your new home</h3>
+							</span>
+						</div>
+						<div class="home-menu"
+							data-center="top: 40vh"
+							data-top-bottom="top: 85vh"
+							data-anchor-target=".parallax-1"
+							data-smooth-scrolling="off">
+							<table class="no-space">
+								<tr>
+									<td style="vertical-align: bottom">
+										<div class="dropdown">
+											<a href="#top"><button class="dropbtn">Home</button></a>
+										</div>
+										<div class="dropdown">
+											<a href="#explore"><button class="dropbtn">Explore</button></a>
+											<div class="dropdown-content">
+												<a href="#">Condo</a>
+												<a href="#">Residental</a>
+												<a href="#">Vacant Land</a>
+											</div>
+										</div>
+										<div class="dropdown">
+											<a href="#why-us"><button class="dropbtn">Why us?</button></a>
+										</div>
+										<div class="dropdown">
+											<a href="#partners"><button class="dropbtn">Partners</button></a>
+										</div>
+										<div class="dropdown">
+											<a href="#testimonial"><button class="dropbtn">Testimonial</button></a>
+										</div>
+										<div class="dropdown">
+											<button class="dropbtn">Contact us</button>
+										</div>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
 				</div>
 				
 				<div class="explore-anchor">
@@ -90,10 +141,16 @@
 				</div>
 				
 				<!-- BG 2 -->
-				<div class="bgimg-2">
+				<div class="parallax-2">
 					<div class="why-us-anchor"><a name="why-us"></a></div>
 					<div class="overlay overlay-1 overlay-top"></div>
 					<div class="overlay overlay-2 overlay-bottom"></div>
+					<div class="bgimg-2"
+						data-center="background-position: 50% 0px;"
+						data-bottom-top="background-position: 50% 400px;"
+						data-top-bottom="background-position: 50% -400px;"
+						data-anchor-target=".parallax-2"
+						data-smooth-scrolling="off"></div>
 				</div>
 				
 				<!-- Why us? -->
@@ -153,11 +210,16 @@
 				</div>
 				
 				<!-- BG 3 -->
-				<div class="bgimg-3">
-					<div class="overlay overlay-2 overlay-top">
-						<a name="testimonial"></a>
-					</div>
+				<div class="parallax-3">
+					<a name="testimonial"></a>
+					<div class="overlay overlay-2 overlay-top">	</div>
 					<div class="overlay overlay-3 overlay-bottom"></div>
+					<div class="bgimg-3"
+						data-center="background-position: 50% 0px;"
+						data-bottom-top="background-position: 50% 400px;"
+						data-top-bottom="background-position: 50% -400px;"
+						data-anchor-target=".parallax-3"
+						data-smooth-scrolling="off"></div>
 				</div>
 				
 				<!-- Testimonial -->
@@ -214,20 +276,31 @@
 				</div>
 				
 				<!-- BG 4 -->
-				<div class="bgimg-4">
+				<div class="parallax-4">
 					<div class="overlay overlay-3 overlay-top">
 						<a name="contact-us"></a>
 					</div>
-					
-					<!-- Contact us -->
-					
+					<div class="bgimg-4"
+						data-center="background-position: 50% 0px;"
+						data-bottom-top="background-position: 50% 400px;"
+						data-top-bottom="background-position: 50% -400px;"
+						data-anchor-target=".parallax-4"
+						data-smooth-scrolling="off">
+						
+						<!-- Contact us -->
+						
+					</div>
 				</div>
 			</section>
 			
 			<!-- Footer section -->
 			
 			<!-- JavaScript -->
+			<script type="text/javascript" src="scripts/jquery-3.1.0.min.js"></script>
+			<script type="text/javascript" src="scripts/skrollr.js"></script>
 			<script type="text/javascript" src="scripts/df_smooth_scroll/smooth.pack.js"></script>
+			<script type="text/javascript" src="scripts/parallax-bg.js"></script>
+			<script type="text/javascript" src="scripts/parallax-header.js"></script>
 			<script type="text/javascript" src="scripts/testimonial-slideshow.js"></script>
 		</div>
 	</body>

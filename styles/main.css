@@ -80,7 +80,7 @@ header {
 	padding: 0px;
 	position: fixed;
 	width: 100%;
-	z-index: 200;
+	z-index: 999;
 }
 
 /* Table property */
@@ -98,96 +98,7 @@ div.page-layout {
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
-	height: 5000px;
-}
-
-/* Floating message division */
-div.floating-panel {
-	background-color: rgba(166, 178, 108, 0.65);
-	position: relative;
-	width: 40vw;
-	min-width: 150px;
-	top: 40%;
-	margin: 0 auto;
-	text-align: center;
-	padding: 40px;
-	border-radius: 20px;
-}
-
-/* Floating message */
-div.floating-panel span.floating-message {
-	letter-spacing: 5px;
-	text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.4);
-}
-
-/***********************************EXPLORE SECTION***************************************************/
-
-/* Anchor for explore section */
-div.explore-anchor {
-	top: 70vh;
-	position: absolute;
-}
-
-/* Section for exploration */
-div.explore-div {
-	background-color: rgba(73, 96, 43, 1);
-	position: relative;
-	width: 100%;
-	padding-top: 30px;
-	padding-bottom: 60px;
-	box-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
-	text-align:center;
-	z-index: 100;
-}
-
-div.explore-div h2 {
-	color: white;
-	border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-}
-
-div.explore-div p {
-	color: rgb(200, 200, 200);
-	letter-spacing: 2px;
-}
-
-div.explore-div section.property-link {
-	display: inline-block;
-	width: 120px;
-	margin-top: 20px;
-	margin-left: 40px;
-	margin-right: 40px;
-	text-align: center;
-	vertical-align: top;
-}
-
-div.explore-div section.property-link img {
-	height: 100px;
-	width: 100px;
-	opacity: 0.5;
-}
-
-div.explore-div section.property-link:hover img {
-	opacity: 1;
-	-webkit-filter: invert(100%);
-}
-
-div.explore-div section.property-link button {
-	color: transparent;
-	background-color: inherit;
-	padding: 5px 20px 5px 20px;
-	font-size: 100%;
-	font-weight: 600;
-	letter-spacing: 1px;
-	border: none;
-	cursor: pointer;
-	width: 100%;
-	border-top: 2px solid transparent;
-	outline: none;
-}
-
-div.explore-div section.property-link:hover button {
-	color: white;
-	border-top: 2px solid white;
+	height: auto;
 }
 
 /*************************************WHY US SECTION**************************************************/
@@ -361,7 +272,7 @@ img.quote.right {
 	letter-spacing: 2px;
 	width: 40vw;
 	min-height: 10vh;
-	min-width: 200px;
+	min-width: 150px;
 	text-align: right;
 }
 
@@ -386,26 +297,11 @@ div.testimonial-div.bottom {
 	height: 5vh;
 	width: 100%;
 	z-index: 200;
+	display: block;
 }
 
 .overlay-top {
 	top: 0;
-}
-
-.overlay.overlay-1 {
-	background-color: rgba(23, 46, 13, 0.65);
-}
-
-.overlay-1.overlay-bottom {
-	top: 75vh;
-}
-
-.overlay.overlay-2 {
-	background-color: rgba(222, 222, 222, 0.65);
-}
-
-.overlay-2.overlay-bottom {
-	top: 40vh;
 }
 
 .overlay.overlay-3 {
@@ -420,30 +316,35 @@ div.testimonial-div.bottom {
 	position: relative;
 	opacity: 0.8;
 	background-attachment: fixed;
-	background-position: center;
+	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	margin-top: -10vh;
 	z-index: 0;
 }
 
-.bgimg-1 {
-	background-image: url("../images/parallax-1.jpg");
-	height: 105vh;
+.parallax-1, .parallax-2, .parallax-3, .parallax-4 {
+	width: 100%;
+	z-index: 999;
+	overflow: hidden;
 }
 
-.bgimg-2 {
-	background-image: url("../images/parallax-2.jpg");
-	height: 50vh;
+.parallax-3 {
+	height: 30vh;
 }
 
 .bgimg-3 {
 	background-image: url("../images/parallax-3.jpg");
-	height: 30vh;
+	height: 50vh;
+}
+
+.parallax-4 {
+	height: 90vh;
 }
 
 .bgimg-4 {
 	background-image: url("../images/parallax-4.jpg");
-	height: 90vh;
+	height: 120vh;
 }
 
 /*************************************DROP DOWN MENU**************************************************/

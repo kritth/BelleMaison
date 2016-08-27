@@ -1,0 +1,86 @@
+/***********************************EXPLORE SECTION***************************************************/
+
+/* Anchor for explore section */
+div.explore-anchor {
+	top: 70vh;
+	position: absolute;
+}
+
+/* Section for exploration */
+div.explore-div {
+	background-color: rgba(73, 96, 43, 1);
+	position: relative;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 60px;
+	box-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
+	text-align:center;
+	z-index: 400;
+}
+
+div.explore-div h2 {
+	color: white;
+	border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+div.explore-div p {
+	color: rgb(200, 200, 200);
+	letter-spacing: 2px;
+}
+
+div.explore-div section.property-link {
+	display: inline-block;
+	width: 120px;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	text-align: center;
+	vertical-align: top;
+}
+
+div.explore-div section.property-link img {
+	height: 100px;
+	width: 100px;
+	opacity: 0.5;
+}
+
+div.explore-div section.property-link:hover img {
+	opacity: 1;
+	-webkit-filter: invert(100%);
+}
+
+div.explore-div section.property-link button {
+	color: transparent;
+	background-color: inherit;
+	padding: 5px 20px 5px 20px;
+	font-size: 100%;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	border-top: 2px solid transparent;
+	outline: none;
+}
+
+div.explore-div section.property-link:hover button {
+	color: white;
+	border-top: 2px solid white;
+}
+
+.overlay.overlay-2 {
+	background-color: rgba(222, 222, 222, 0.65);
+}
+
+.overlay-2.overlay-bottom {
+	top: 40vh;
+}
+
+.parallax-2 {
+	height: 50vh;
+}
+
+.bgimg-2 {
+	background-image: url("../images/parallax-2.jpg");
+	height: 50vh;
+}

@@ -7,7 +7,7 @@ Real estate website created for the project in Java Web Programming Diploma for 
 - ~~Change Explore section to include icon to link to property page.~~
 - ~~Alter some styling for Why Us? section~~
 - ~~Automatically changing div on Testimonial section.~~
-- Create form for Contact Us section containing form and JS to send data over.
+- Create form for Contact Us section containing form to send data over.
 - Create footer contains misc pages (maynot need to implement them all)
 - Include digital clock on the top right corner on the header section.
 
@@ -33,7 +33,8 @@ Real estate website created for the project in Java Web Programming Diploma for 
 ### Nice to have goodies:
 #### index.html
 - JS: Testimonial slide show, automatically changes every 10 seconds, and can force change it as well.
-- JS: Parallax header, menu should start at the center then scroll up to the top when reached 100vh.
-- JS: Parallax background on all background-image bgimg-x section.
-- JS: Switch from buttons on header to dropdown menu under certain size
+- ~~JS: Parallax header, menu should start at the center then scroll up to the top when reached 100vh.~~
+- ~~JS: Parallax background on all background-image bgimg-x section.~~
+- JS: Switch from buttons on header to dropdown menu under certain size.
 - JS: Replace digital clock with analog clock behind the welcome message.
+- JS: Decorate home section so it is not plain.
