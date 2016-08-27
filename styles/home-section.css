@@ -1,17 +1,17 @@
 div.floating-panel {
 	background-color: rgba(166, 178, 108, 0.65);
 	position: relative;
-	width: 40vw;
-	min-width: 150px;
-	top: 40vh;
-	left: 0;
+	width: 50%;
+	left: 25%;
 	right: 0;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	padding: 40px;
 	border-radius: 20px;
+	top: -100vh;
 	z-index: 600;
+	display: inline-block;
 }
 
 div.floating-panel span.floating-message {
@@ -19,27 +19,11 @@ div.floating-panel span.floating-message {
 	text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.4);
 }
 
-div.home-menu {
-	position: relative;
-	background-color: black;
-	width: 50vw;
-	min-width: 150px;
-	left: 0;
-	right: 0;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10px;
-	border-radius: 10px;
-	z-index: 700;
-	text-align: center;
-}
-
 div.home-curtain {
 	width: 100%;
 	height: 115vh;
-	position: absolute;
+	position: relative;
 	left: 0;
-	top: 0;
 	margin-top: -10vh;
 	background-color: black;
 	z-index: 800;
@@ -47,20 +31,63 @@ div.home-curtain {
 	pointer-events: none
 }
 
+div.glass-door {
+	position: relative;
+	display: inline-block;
+	width: 30vw;
+	height: 105vh;
+	top: 0;
+	z-index: 500;
+	-webkit-filter: blur(10px);
+	background-image: url("../images/parallax-home.jpg");
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div.glass-door.left {
+	border-right: 3px solid rgba(0, 0, 0, 0.5);
+}
+
+div.glass-door.left.inner {
+	border-right: 1px solid rgba(0, 0, 0, 1);
+	width: 50vw;
+	left: -30vw;
+	z-index: 450;
+	-webkit-filter: blur(4px);
+}
+
+div.glass-door.right {
+	border-left: 3px solid rgba(0, 0, 0, 0.5);
+	left: 20vw;
+	top: -105vh;
+}
+
+div.glass-door.right.inner {
+	border-left: 1px solid rgba(0, 0, 0, 1);
+	width: 50vw;
+	left: 50vw;
+	z-index: 450;
+	-webkit-filter: blur(4px);
+}
+
+.bgimg-1 {
+	background-image: url("../images/parallax-home.jpg");
+	height: 110vh;
+	z-index: 0;
+	margin-top: -115vh;
+}
+
 .parallax-1 {
 	height: 105vh;
 }
 
-.bgimg-1 {
-	background-image: url("../images/parallax-1.jpg");
-	height: 110vh;
-}
-
 .overlay.overlay-1 {
 	background-color: rgba(23, 46, 13, 0.65);
+	z-index: 550;
 }
 
 .overlay-1.overlay-bottom {
 	top: 100vh;
-	z-index: 900;
 }

@@ -28,6 +28,9 @@ footer {
 h1.page-title {
 	border-bottom: 2px solid black; 
 	padding-bottom: 0px; 
+	width: 40vw;
+	min-width: 150px;
+	margin: 0 auto;
 	margin-bottom: 20px;
 	font-size: 300%;
 }
@@ -109,7 +112,9 @@ div.page-layout {
 	height: 5vh;
 	width: 100%;
 	z-index: 200;
-	display: block;
+	display: inline-block;
+	opacity: 0.5;
+	-webkit-filter: blur(2px);
 }
 
 .overlay-top {
@@ -123,14 +128,14 @@ div.page-layout {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin-top: -10vh;
+	margin-top: -12vh;
 	z-index: 0;
+	overflow: hidden;
 }
 
 .parallax-1, .parallax-2, .parallax-3, .parallax-4 {
 	width: 100%;
 	z-index: 999;
-	overflow: hidden;
 }
 
 /*************************************DROP DOWN MENU**************************************************/

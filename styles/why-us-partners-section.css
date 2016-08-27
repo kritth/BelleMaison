@@ -12,7 +12,7 @@ div.why-us-div {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	box-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
-	z-index: 100;
+	z-index: 900;
 }
 
 div.why-us-div table {
@@ -42,6 +42,7 @@ article.advantage-layout {
 	margin-right: 20px;
 	margin-bottom: 20px;
 	border-radius: 10px;
+	-webkit-transform: scale(0.9);
 }
 
 article.advantage-layout img {
@@ -57,19 +58,9 @@ article.advantage-layout p {
 }
 
 article.advantage-layout:hover {
-	background-color: black;
-}
-
-article.advantage-layout:hover img {
 	-webkit-filter: invert(100%);
-}
-
-article.advantage-layout:hover h4 {
-	color: white;
-}
-
-article.advantage-layout:hover p {
-	color: rgba(200, 200, 200, 1);
+	-webkit-transform: scale(1.2);
+	-webkit-transition: 0.5s;
 }
 
 /*************************************PARTNERS SECTION************************************************/
@@ -87,9 +78,21 @@ div.partners-div {
 div.partners-div img {
 	height: 100px;
 	width: auto;
-	padding-left: 30px;
-	padding-bottom: 30px;
+	padding: 5px;
+	margin-left: 20px;
+	margin-bottom: 20px;
 	display: inline-block;
+	background-color: white;
+	border: 2px solid transparent;
+	border-radius: 5px;
+	-webkit-transition: border 500ms ease-out;
+	vertical-align: middle;
+}
+
+div.partners-div img:hover {
+	border: 2px solid rgba(0, 0, 0, 0.5);
+	-webkit-transform: scale(2.5);
+	-webkit-transition: 0.5s;
 }
 
 div.partners-div img.vertical {
@@ -104,14 +107,14 @@ div.partners-div img.vertical {
 }
 
 .overlay-3.overlay-bottom {
-	top: 20vh;
+	top: 60vh;
 }
 
 .parallax-3 {
-	height: 30vh;
+	height: 70vh;
 }
 
 .bgimg-3 {
 	background-image: url("../images/parallax-3.jpg");
-	height: 50vh;
+	height: 90vh;
 }

@@ -2,7 +2,7 @@
 
 /* Anchor for explore section */
 div.explore-anchor {
-	top: 70vh;
+	top: 50vh;
 	position: absolute;
 }
 
@@ -12,10 +12,10 @@ div.explore-div {
 	position: relative;
 	width: 100%;
 	padding-top: 30px;
-	padding-bottom: 60px;
+	padding-bottom: 40px;
 	box-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
 	text-align:center;
-	z-index: 400;
+	z-index: 900;
 }
 
 div.explore-div h2 {
@@ -31,7 +31,7 @@ div.explore-div p {
 div.explore-div section.property-link {
 	display: inline-block;
 	width: 120px;
-	margin-top: 20px;
+	margin-top: 30px;
 	margin-left: 40px;
 	margin-right: 40px;
 	text-align: center;
@@ -39,6 +39,7 @@ div.explore-div section.property-link {
 }
 
 div.explore-div section.property-link img {
+	position: relative;
 	height: 100px;
 	width: 100px;
 	opacity: 0.5;
@@ -47,10 +48,13 @@ div.explore-div section.property-link img {
 div.explore-div section.property-link:hover img {
 	opacity: 1;
 	-webkit-filter: invert(100%);
+	-webkit-transform: scale(1.5);
+	-webkit-transition-duration: 0.5s;
 }
 
 div.explore-div section.property-link button {
-	color: transparent;
+	color: white;
+	opacity: 0;
 	background-color: inherit;
 	padding: 5px 20px 5px 20px;
 	font-size: 100%;
@@ -61,11 +65,15 @@ div.explore-div section.property-link button {
 	width: 100%;
 	border-top: 2px solid transparent;
 	outline: none;
+	margin-top: 30px;
 }
 
 div.explore-div section.property-link:hover button {
-	color: white;
 	border-top: 2px solid white;
+	opacity: 1;
+	-webkit-transform: scale(1.5);
+	-webkit-transition: opacity 1.0s ease-in-out;
+	-webkit-transition-duration: 0.5s;
 }
 
 .overlay.overlay-2 {
@@ -82,5 +90,5 @@ div.explore-div section.property-link:hover button {
 
 .bgimg-2 {
 	background-image: url("../images/parallax-2.jpg");
-	height: 50vh;
+	height: 55vh;
 }

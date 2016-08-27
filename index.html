@@ -53,25 +53,51 @@
 					<div class="home-curtain"
 						data-bottom-top="opacity: 0"
 						data-center="opacity: 0"
-						data-top-bottom="opacity: 1"
-						data-anchor-target=".parallax-1"></div>
+						data-top-bottom="opacity: 0.5"
+						data-anchor-target=".parallax-1">
+					</div>
 					<div class="bgimg-1"
 						data-center="background-position: 50% 0px;"
 						data-top-bottom="background-position: 50% -400px;"
 						data-anchor-target=".parallax-1"
 						data-smooth-scrolling="off">
-						<div class="floating-panel"
-							data-center="top: 40vh"
-							data-top-bottom="top: 95vh"
-							data-anchor-target=".parallax-1"
-							data-smooth-scrolling="off">
-							<span class="floating-message">
-								<h1 class="page-title">Belle Maison</h1>
-								<h3>One click for the first step in your new home</h3>
-							</span>
+							<div class="glass-door left"
+								data-center="left: 0vw; background-position: 50% 0px;"
+								data-top-bottom="left: -100vw; background-position: 50% -400px;"
+								data-anchor-target=".parallax-1"
+								data-smooth-scrolling="off">
+							</div>
+							<div class="glass-door left inner"
+								data-center="left: -30vw; background-position: 50% 0px;"
+								data-top-bottom="left: -180vw; background-position: 50% -400px;"
+								data-anchor-target=".parallax-1"
+								data-smooth-scrolling="off">
+							</div>
+							<div class="glass-door right inner"
+								data-center="left: 50vw; background-position: 50% 0px;"
+								data-top-bottom="left: 200vw; background-position: 50% -400px;"
+								data-anchor-target=".parallax-1"
+								data-smooth-scrolling="off">
+							</div>
+							<div class="glass-door right"
+								data-center="left: 20vw; background-position: 50% 0px;"
+								data-top-bottom="left: 120vw; background-position: 50% -400px;"
+								data-anchor-target=".parallax-1"
+								data-smooth-scrolling="off">
+							</div>
+							<div class="floating-panel"
+								data-center="top: -190vh"
+								data-top-bottom="top: -120vh"
+								data-anchor-target=".parallax-1"
+								data-smooth-scrolling="off">
+								<span class="floating-message">
+									<h1 class="page-title">Belle Maison</h1>
+									<h3>One click for the first step in your new home</h3>
+								</span>
+							</div>
 						</div>
 					</div>
-				</div>
+				</section>
 				
 				<div class="explore-anchor">
 					<a name="explore"></a>
@@ -79,32 +105,39 @@
 				
 				<!-- Explore -->
 				<div class="explore-div">
-					<h2 class="title center">Explore our options</h2>
-					<p class="paragraph">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus odio nunc, sit amet vehicula libero fringilla eget.
-						Vivamus molestie orci a magna mollis porttitor. Curabitur egestas sapien sed dolor eleifend, in dignissim velit sodales.
-						Nullam tincidunt aliquam nisi. Suspendisse congue, lacus vitae eleifend auctor, lectus ligula hendrerit massa, sagittis pharetra 
-						libero neque vel ligula. Phasellus ut sem dui. Suspendisse quis erat dapibus, placerat neque sed, luctus leo. Phasellus nibh metus, 
-						dapibus eget tortor eget, efficitur sodales sapien. Curabitur tempor justo mauris, non cursus velit egestas semper.
-					</p>
-					<section class="property-link">
-						<a href="#">
-							<img src="images/house-icon.png">
-							<button>House</button>
-						</a>
-					</section>
-					<section class="property-link">
-						<a href="#">
-							<img src="images/condo-icon.png">
-							<button>Condo</button>
-						</a>
-					</section>
-					<section class="property-link">
-						<a href="#">
-							<img src="images/land-icon.png">
-							<button>Land</button>
-						</a>
-					</section>
+					<div style="position: relative; display: inline-block;"
+						data-center="opacity: 1; top: 0vh; -webkit-transform: scale(1);"
+						data-bottom-top="opacity: 0.3; top: 10vh; -webkit-transform: scale(0.9);"
+						data-top-bottom="opacity: 0.3; top: -10vh; -webkit-transform: scale(0.9);"
+						data-anchor-target=".explore-div"
+						data-smooth-scrolling="off">
+						<h2 class="title center">Explore our options</h2>
+						<p class="paragraph">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus odio nunc, sit amet vehicula libero fringilla eget.
+							Vivamus molestie orci a magna mollis porttitor. Curabitur egestas sapien sed dolor eleifend, in dignissim velit sodales.
+							Nullam tincidunt aliquam nisi. Suspendisse congue, lacus vitae eleifend auctor, lectus ligula hendrerit massa, sagittis pharetra 
+							libero neque vel ligula. Phasellus ut sem dui. Suspendisse quis erat dapibus, placerat neque sed, luctus leo. Phasellus nibh metus, 
+							dapibus eget tortor eget, efficitur sodales sapien. Curabitur tempor justo mauris, non cursus velit egestas semper.
+						</p>
+						<section class="property-link">
+							<a href="#">
+								<img src="images/house-icon.png">
+								<button>House</button>
+							</a>
+						</section>
+						<section class="property-link">
+							<a href="#">
+								<img src="images/condo-icon.png">
+								<button>Condo</button>
+							</a>
+						</section>
+						<section class="property-link">
+							<a href="#">
+								<img src="images/land-icon.png">
+								<button>Land</button>
+							</a>
+						</section>
+					</div>
 				</div>
 				
 				<!-- BG 2 -->
@@ -122,63 +155,77 @@
 				
 				<!-- Why us? -->
 				<div class="why-us-div center">
-					<h2 class="title">Why Belle Maison</h2><br>
-					<article class="advantage-layout">
-						<img src="images/support-icon.png">
-						<h4>24/7 Customer Support</h4>
-						<p>
-							Duis tempor velit in lectus faucibus venenatis. Mauris ultricies ex ut metus venenatis pellentesque.
-							Nam ultricies commodo.
-						</p>
-					</article>
-					<article class="advantage-layout">
-						<img src="images/connect-icon.jpg">
-						<h4>No need to look further</h4>
-						<p>
-							Morbi accumsan tortor sed nisl maximus, eu imperdiet diam tristique. Quisque lobortis
-							, eros dictum malesuada.
-						</p>
-					</article>
-					<article class="advantage-layout">
-						<img src="images/fast-icon.png">
-						<h4>No need to wait</h4>
-						<p>
-							Suspendisse cursus purus a gravida porttitor. Curabitur mattis, quam nec convallis hendrerit
-							, nibh massa laoreet orci.
-						</p>
-						<a name="partners"></a>
-					</article>
+					<div style="position: relative; display: inline-block;"
+						data-center="opacity: 1; top: 0vh; -webkit-transform: scale(1);"
+						data-bottom-top="opacity: 0.3; top: 10vh; -webkit-transform: scale(0.9);"
+						data-top-bottom="opacity: 0.3; top: -10vh; -webkit-transform: scale(1);"
+						data-anchor-target=".why-us-div"
+						data-smooth-scrolling="off">
+						<h2 class="title">Why Belle Maison</h2><br>
+						<article class="advantage-layout">
+							<img src="images/support-icon.png">
+							<h4>24/7 Customer Support</h4>
+							<p>
+								Duis tempor velit in lectus faucibus venenatis. Mauris ultricies ex ut metus venenatis pellentesque.
+								Nam ultricies commodo.
+							</p>
+						</article>
+						<article class="advantage-layout">
+							<img src="images/connect-icon.jpg">
+							<h4>No need to look further</h4>
+							<p>
+								Morbi accumsan tortor sed nisl maximus, eu imperdiet diam tristique. Quisque lobortis
+								, eros dictum malesuada.
+							</p>
+						</article>
+						<article class="advantage-layout">
+							<img src="images/fast-icon.png">
+							<h4>No need to wait</h4>
+							<p>
+								Suspendisse cursus purus a gravida porttitor. Curabitur mattis, quam nec convallis hendrerit
+								, nibh massa laoreet orci.
+							</p>
+						</article>
+					</div>
 				</div>
+				
+				<a name="partners" style="position:relative; top: -10vh"></a>
 				
 				<!-- Partners-->
 				<div class="partners-div center">
-					<h2 class="title">Partners</h2>
-					<div>
-						<img src="images/partners/cutler-logo.jpg" alt="Cutler Real Estate">
-						<img src="images/partners/ideas-logo.jpg" alt="Ideas Real Estate">
-						<img src="images/partners/mayguire-hayden-logo.png" alt="Maguire Hayden" class="vertical">
-							<br>
-						<img src="images/partners/realtor-logo.jpg" alt="Realtor">
-						<img src="images/partners/realcrowd-logo.jpeg" alt="Real Crowd">
-						<img src="images/partners/mauritius-logo.jpg" alt="Mauritius">
-						<img src="images/partners/highgarden-logo.png" alt="High Garden">
-						<img src="images/partners/estate-logo.jpg" alt="Estate Fine Properties">
-							<br>
-						<img src="images/partners/seaside-logo.jpg" alt="Seaside">
-						<img src="images/partners/horizon-logo.jpg" alt="Horizon">
-						<img src="images/partners/gbr-logo.jpg" alt="GBR Estate">
-						<img src="images/partners/property-plus-logo.png" alt="Property Plus">
-							<br>
-						<img src="images/partners/leo-logo.jpg" alt="Leo">
-						<img src="images/partners/richmond-logo.png" alt="Richmond Group">
-						<img src="images/partners/trustestate-logo.jpg" alt="Trust Estate">
-						<img src="images/partners/americanhome-logo.jpg" alt="American Home">
+					<div style="position: relative; overflow: hidden; display: inline-block;"
+						data-center="top: -20vh;"
+						data-bottom-top="top: -50vh;"
+						data-top-bottom="top: 0vh;"
+						data-anchor-target=".why-us-div"
+						data-smooth-scrolling="off">
+						<h2 class="title">Partners</h2>
+						<div>
+							<img src="images/partners/cutler-logo.jpg" alt="Cutler Real Estate">
+							<img src="images/partners/ideas-logo.jpg" alt="Ideas Real Estate">
+							<img src="images/partners/mayguire-hayden-logo.png" alt="Maguire Hayden" class="vertical">
+								<br>
+							<img src="images/partners/realtor-logo.jpg" alt="Realtor">
+							<img src="images/partners/realcrowd-logo.jpeg" alt="Real Crowd">
+							<img src="images/partners/mauritius-logo.jpg" alt="Mauritius">
+							<img src="images/partners/highgarden-logo.png" alt="High Garden">
+							<img src="images/partners/estate-logo.jpg" alt="Estate Fine Properties">
+								<br>
+							<img src="images/partners/seaside-logo.jpg" alt="Seaside">
+							<img src="images/partners/horizon-logo.jpg" alt="Horizon">
+							<img src="images/partners/gbr-logo.jpg" alt="GBR Estate">
+							<img src="images/partners/property-plus-logo.png" alt="Property Plus">
+								<br>
+							<img src="images/partners/leo-logo.jpg" alt="Leo">
+							<img src="images/partners/richmond-logo.png" alt="Richmond Group">
+							<img src="images/partners/trustestate-logo.jpg" alt="Trust Estate">
+							<img src="images/partners/americanhome-logo.jpg" alt="American Home">
+						</div>
 					</div>
 				</div>
 				
 				<!-- BG 3 -->
 				<div class="parallax-3">
-					<a name="testimonial"></a>
 					<div class="overlay overlay-2 overlay-top">	</div>
 					<div class="overlay overlay-3 overlay-bottom"></div>
 					<div class="bgimg-3"
@@ -187,61 +234,70 @@
 						data-top-bottom="background-position: 50% -400px;"
 						data-anchor-target=".parallax-3"
 						data-smooth-scrolling="off"></div>
+					<a name="testimonial" style="position:relative; top: -70vh"></a>
 				</div>
 				
 				<!-- Testimonial -->
-				<div class="testimonial-div top center">
-					<h2>Hear what other people say about us</h2>
+				<div class="testimonial">
+					<div class="testimonial-div top center">
+						<div style="position: relative; display: inline-block;"
+							data-center="opacity: 1; top: 0vh; -webkit-transform: scale(1);"
+							data-bottom-top="opacity: 0.3; top: 2vh; -webkit-transform: scale(0.9);"
+							data-top-bottom="opacity: 0.3; top: -2vh; -webkit-transform: scale(0.9);"
+							data-anchor-target=".testimonial-div.top"
+							data-smooth-scrolling="off">
+						<h2>Hear what other people say about us</h2>
+						</div>
+					</div>
+					<div class="testimonial-div slide center">
+						<div class="testimonial-slide">
+							<img src="images/quote-left.png" class="quote left">
+							<span class="testimonial-text">
+								Nunc eu egestas sapien. Ut at molestie augue. Duis pretium erat quis sem malesuada consectetur sed a eros. 
+								Etiam gravida quis felis ultrices viverra. Duis posuere varius felis, et hendrerit ligula egestas eu. 
+								Nullam sapien nunc, tristique sit amet commodo eu, finibus sit amet neque. Nulla viverra odio mauris
+								, pellentesque.<br><br>
+								<span class="testimonial-owner">- New York Times</span>
+							</span>
+							<img src="images/quote-left.png" class="quote right">
+						</div>
+						<div class="testimonial-slide">
+							<img src="images/quote-left.png" class="quote left">
+							<span class="testimonial-text">
+								Sed ut risus metus. Morbi ornare, justo vitae imperdiet maximus, magna odio imperdiet eros
+								, rhoncus tincidunt neque arcu non augue. Curabitur eleifend ante ante, consectetur egestas 
+								dui feugiat at. Aliquam at diam efficitur urna congue auctor. In luctus sem nec consectetur 
+								rhoncus. Suspendisse vitae erat sapien. Sed efficitur purus sit.<br><br>
+								<span class="testimonial-owner">- Forbes</span>
+							</span>
+							<img src="images/quote-left.png" class="quote right">
+						</div>
+						<div class="testimonial-slide">
+							<img src="images/quote-left.png" class="quote left">
+							<span class="testimonial-text">
+								Curabitur et libero nec leo vehicula porttitor. Donec ante enim, pellentesque et eros vitae
+								, gravida volutpat erat. Maecenas auctor accumsan ipsum, non pellentesque massa ultricies vel. 
+								Aliquam vitae posuere risus. Ut dictum mattis magna, quis lacinia tortor fringilla ut. 
+								Phasellus dignissim, risus a laoreet gravida, nisi velit elementum mauris, sit.<br><br>
+								<span class="testimonial-owner">- Entrepreneur</span>
+							</span>
+							<img src="images/quote-left.png" class="quote right">
+						</div>
+						<div class="testimonial-slide">
+							<img src="images/quote-left.png" class="quote left">
+							<span class="testimonial-text">
+								In luctus sit amet erat nec aliquet. Nam ultricies consequat eros non fringilla. 
+								Vivamus ut nibh nec libero porttitor molestie non ac arcu. Integer lobortis finibus dictum. 
+								Aenean quis augue at dui egestas aliquam. Fusce malesuada mauris quis augue vulputate
+								, vel lobortis velit commodo. Pellentesque at mi ante. Aliquam consequat.<br><br>
+								<span class="testimonial-owner">- CBC Canada</span>
+							</span>
+							<img src="images/quote-left.png" class="quote right">
+						</div>
+					</div>
+					<div class="testimonial-div bottom center">
+					</div>
 				</div>
-				<div class="testimonial-div slide center">
-					<div class="testimonial-slide">
-						<img src="images/quote-left.png" class="quote left">
-						<span class="testimonial-text">
-							Nunc eu egestas sapien. Ut at molestie augue. Duis pretium erat quis sem malesuada consectetur sed a eros. 
-							Etiam gravida quis felis ultrices viverra. Duis posuere varius felis, et hendrerit ligula egestas eu. 
-							Nullam sapien nunc, tristique sit amet commodo eu, finibus sit amet neque. Nulla viverra odio mauris
-							, pellentesque.<br><br>
-							<span class="testimonial-owner">- New York Times</span>
-						</span>
-						<img src="images/quote-left.png" class="quote right">
-					</div>
-					<div class="testimonial-slide">
-						<img src="images/quote-left.png" class="quote left">
-						<span class="testimonial-text">
-							Sed ut risus metus. Morbi ornare, justo vitae imperdiet maximus, magna odio imperdiet eros
-							, rhoncus tincidunt neque arcu non augue. Curabitur eleifend ante ante, consectetur egestas 
-							dui feugiat at. Aliquam at diam efficitur urna congue auctor. In luctus sem nec consectetur 
-							rhoncus. Suspendisse vitae erat sapien. Sed efficitur purus sit.<br><br>
-							<span class="testimonial-owner">- Forbes</span>
-						</span>
-						<img src="images/quote-left.png" class="quote right">
-					</div>
-					<div class="testimonial-slide">
-						<img src="images/quote-left.png" class="quote left">
-						<span class="testimonial-text">
-							Curabitur et libero nec leo vehicula porttitor. Donec ante enim, pellentesque et eros vitae
-							, gravida volutpat erat. Maecenas auctor accumsan ipsum, non pellentesque massa ultricies vel. 
-							Aliquam vitae posuere risus. Ut dictum mattis magna, quis lacinia tortor fringilla ut. 
-							Phasellus dignissim, risus a laoreet gravida, nisi velit elementum mauris, sit.<br><br>
-							<span class="testimonial-owner">- Entrepreneur</span>
-						</span>
-						<img src="images/quote-left.png" class="quote right">
-					</div>
-					<div class="testimonial-slide">
-						<img src="images/quote-left.png" class="quote left">
-						<span class="testimonial-text">
-							In luctus sit amet erat nec aliquet. Nam ultricies consequat eros non fringilla. 
-							Vivamus ut nibh nec libero porttitor molestie non ac arcu. Integer lobortis finibus dictum. 
-							Aenean quis augue at dui egestas aliquam. Fusce malesuada mauris quis augue vulputate
-							, vel lobortis velit commodo. Pellentesque at mi ante. Aliquam consequat.<br><br>
-							<span class="testimonial-owner">- CBC Canada</span>
-						</span>
-						<img src="images/quote-left.png" class="quote right">
-					</div>
-				</div>
-				<div class="testimonial-div bottom center">
-				</div>
-				
 				<!-- BG 4 -->
 				<div class="parallax-4">
 					<div class="overlay overlay-3 overlay-top">
@@ -253,7 +309,7 @@
 						
 					</div>
 				</div>
-			</section>
+			</div>
 			
 			<!-- Footer section -->
 			
