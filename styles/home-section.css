@@ -31,6 +31,7 @@ div.home-menu {
 	margin-top: 10px;
 	border-radius: 10px;
 	z-index: 700;
+	text-align: center;
 }
 
 div.home-curtain {

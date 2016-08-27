@@ -91,6 +91,10 @@ table.no-space {
 	border-collapse: collapse;
 }
 
+table.no-space tr td {
+	padding-top: 15px;
+}
+
 /* Page layout */
 div.page-layout {
 	margin: 0px;
