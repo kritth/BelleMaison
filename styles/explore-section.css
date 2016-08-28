@@ -10,12 +10,10 @@ div.explore-anchor {
 div.explore-div {
 	background-color: rgba(73, 96, 43, 1);
 	position: relative;
-	width: 100%;
 	padding-top: 30px;
 	padding-bottom: 40px;
 	box-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
-	text-align:center;
-	z-index: 900;
+	text-align: center;
 }
 
 div.explore-div h2 {
@@ -57,12 +55,10 @@ div.explore-div section.property-link button {
 	opacity: 0;
 	background-color: inherit;
 	padding: 5px 20px 5px 20px;
-	font-size: 100%;
 	font-weight: 600;
 	letter-spacing: 1px;
 	border: none;
 	cursor: pointer;
-	width: 100%;
 	border-top: 2px solid transparent;
 	outline: none;
 	margin-top: 30px;
@@ -74,6 +70,12 @@ div.explore-div section.property-link:hover button {
 	-webkit-transform: scale(1.5);
 	-webkit-transition: opacity 1.0s ease-in-out;
 	-webkit-transition-duration: 0.5s;
+}
+
+p.paragraph {
+	font-size: 90%;
+	width: 50%;
+	text-align: justify;
 }
 
 .overlay.overlay-2 {
