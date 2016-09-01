@@ -1,0 +1,579 @@
+body {
+	font-family: Helvetica, Arial;
+	letter-spacing: 1px;
+}
+
+img {
+	pointer-events: none;
+}
+
+.section-1, .section-2, .section-3, .section-4, .section-5 {
+	min-width: 800px;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+	background: rgba(74, 98, 22, 0.5);
+	-webkit-box-shadow: inset 0 0 6px rgba(74, 98, 22, 0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(74, 98, 22, 0.2);
+}
+
+.section {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.no-style {
+	background-color: inherit;
+	padding: 5px 20px 5px 20px;
+	font-size: 80%;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.default-position {
+	display: inline-block;
+	position: relative;
+}
+
+.fixed-background {
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bgimg {
+	width: 100%;
+	height: 140vh;
+	z-index: 0;
+}
+
+.parallax {
+	height: 100vh;
+	overflow: hidden;
+}
+
+.curtain {
+	background-color: rgba(0, 0, 0, 0.65);
+	width: 100vw;
+	height: 100vh;
+	z-index: 1;
+}
+
+.layer-bottom { z-index: -1; }
+.layer-1 { z-index: 1; }
+.layer-2 { z-index: 2; }
+.layer-3 { z-index: 3; }
+.layer-4 { z-index: 4; }
+.layer-5 { z-index: 5; }
+.layer-6 { z-index: 6; }
+.layer-top { z-index: 999; }
+
+/***********************HEADER SECTION****************************/
+header {
+	position: fixed;
+	top: 0;
+	margin-top: 10px;
+	width: 100%;
+	background-color: inherit;
+	text-align: center;
+}
+header img {
+	opacity: 0;
+	position: fixed;
+	float: left;
+	left: 40px;
+	width: 100px;
+	height: auto;
+	transition: ;
+	-webkit-transition: opacity 200ms ease-in-out, -webkit-filter 200ms ease-in-out;
+}
+
+img.invert {
+	-webkit-filter: invert(100%);
+}
+
+div.title-menu-light {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+div.title-menu-dark {
+	border-bottom: 1px solid rgb(100, 100, 100);
+}
+
+.btn-non-active-light {
+	color: rgb(0, 0, 0, 0.5);
+	font-weight: 600;
+	width: 120px;
+	margin-bottom: -2px;
+	padding-top: 10px;
+	border-bottom: 2px solid transparent;
+}
+
+.btn-non-active-light:hover {
+	color: black;
+	border-bottom: 2px solid black;
+}
+
+.btn-non-active-dark {
+	color: rgb(100, 100, 100);
+	font-weight: 600;
+	width: 120px;
+	margin-bottom: -2px;
+	padding-top: 10px;
+	border-bottom: 2px solid transparent;
+}
+
+.btn-non-active-dark:hover {
+	color: white;
+	border-bottom: 2px solid rgb(203, 203, 203);
+}
+
+.btn-active {
+	color: rgb(124, 148, 92);
+	font-weight: 600;
+	width: 120px;
+	margin-bottom: -2px;
+	padding-top: 10px;
+	border-bottom: 2px solid rgb(124, 148, 92);
+}
+
+.btn-active:hover {
+	color: rgb(124, 148, 92);
+	border-bottom: 2px solid rgb(124, 148, 92);
+}
+
+
+/***********************FOOTER SECTION****************************/
+footer {
+	position: fixed;
+	bottom: 15px;
+	width: 100%;
+	text-align: center;
+}
+
+.footer-menu button {
+	color: rgba(0, 0, 0, 0.5);
+	width: 150px;
+	font-weight: 600;
+}
+
+.footer-menu-light button {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-menu-light button:hover {
+	color: white;
+}
+
+.footer-menu-dark button {
+	color: rgb(100, 100, 100);
+}
+
+.footer-menu-dark button:hover {
+	color: rgb(203, 203, 203);
+}
+
+/***********************HOME SECTION******************************/
+
+div.home {
+}
+
+div.img-1 {
+	background-image: url("../images/parallax-home.jpg");
+	text-align: center;
+}
+
+div.floating-box {
+	top: 12vh;
+	background-color: rgba(74, 98, 22, 0.75);
+	padding: 40px;
+	border-radius: 25px;
+}
+
+div.title-section {
+	color: rgb(203, 203, 203);
+	margin: 0 auto;
+	width: 50vw;
+	min-width: 600px;
+	text-align: center;
+}
+
+div.title-section img {
+	margin-bottom: -50px;
+	-webkit-filter: invert(100%);
+}
+
+div.title-section h1 {
+	margin-top: 20px;
+	margin-bottom: 0;
+	font-size: 280%;
+	letter-spacing: 10px;
+}
+
+div.title-section span {
+	font-size: 130%;
+}
+
+div.title-section p {
+	font-size: 120%;
+	letter-spacing: 3px;
+	border-top: 1px solid rgb(203, 203, 203);
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding-top: 10px;
+}
+
+/********************EXPLORE SECTION******************************/
+div.section-2 {
+	background-color: rgb(20, 20, 20);
+}
+
+div.img-2 {
+	background-image: url("../images/explore-bg.jpg");
+	-webkit-filter: brightness(150%);
+}
+
+div.parallax-2 {
+	margin: 0 auto;
+	text-align: center;
+	-webkit-user-select: none;
+}
+
+div.section-2-title {
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	pointer-events: none;
+}
+
+div.section-2-title h1 {
+	color: rgb(203, 203, 203);
+	font-size: 300%;
+	letter-spacing: 5px;
+	margin-bottom: 0;
+}
+
+div.explore-icon {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	min-width: 200px;
+	background-color: transparent;
+}
+
+.icon-background {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: rgba(203, 203, 203, 0.65);
+	transition: z-index 200ms step-end, background-color 200ms ease-out;
+	z-index: 3;
+}
+
+div.explore-icon img {
+	-webkit-transition: -webkit-filter 200ms linear;
+}
+
+div.explore-icon:hover .icon-background {
+	background-color: rgba(154, 178, 92, 0.65);
+	transition: z-index 200ms step-start, background-color 200ms ease-in;
+	z-index: 5;
+}
+
+div.explore-icon:hover img {
+	-webkit-filter: invert(100%);
+}
+
+/* Slide */
+
+.explore-1 {
+	top: 15vh;
+	left: 25vw;
+}
+
+.explore-2 {
+	top: 15vh;
+	right: 25vw;
+}
+
+.explore-3 {
+	bottom: 15vh;
+	left: 25vw;
+}
+
+.explore-4 {
+	bottom: 15vh;
+	right: 25vw;
+}
+
+.icon-1,
+.icon-2,
+.icon-3,
+.icon-4 {
+	width: 150px;
+	height: auto;
+}
+
+.icon-1 {
+	width: 140px;
+	margin-top: 30px;
+}
+
+.icon-2 {
+	margin-top: 20px;
+	
+}
+
+.icon-3 {
+	margin-top: 30px;
+}
+
+.icon-4 {
+	width: 120px;
+	margin-top: 35px;
+}
+
+.explore-1-panel,
+.explore-2-panel,
+.explore-3-panel,
+.explore-4-panel {
+	background-color: rgba(154, 178, 92, 0.65);
+	box-shadow: 0px 0px 15px black;
+}
+
+.explore-1-panel,
+.explore-2-panel,
+.explore-3-panel,
+.explore-4-panel,
+.explore-1-panel-alternate,
+.explore-2-panel-alternate,
+.explore-3-panel-alternate,
+.explore-4-panel-alternate {
+	position: absolute;
+	pointer-events: none;
+}
+
+.menu-1-curtain,
+.menu-2-curtain,
+.menu-3-curtain,
+.menu-4-curtain {
+	position: absolute;
+	pointer-events: none;
+	width: 100vw;
+	height: 80px;
+	z-index: 6;
+	background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.65) 30%,rgba(0,0,0,0) 95%);
+}
+
+.text-wrapper {
+	position: relative;
+	width: 35vw;
+	min-width: 150px;
+	margin: auto;
+	color: white;
+	text-shadow: 0px 0px 1px black;
+}
+
+.explore-1-panel .text-wrapper {
+	top: 20%;
+}
+
+.explore-4-panel .text-wrapper {
+	top: 30%;
+}
+
+.explore-2-panel .text-wrapper,
+.explore-3-panel .text-wrapper {
+	top: 35%;
+}
+
+.text-wrapper h1 {
+	font-size: 300%;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid white;
+}
+
+.explore-1-panel-alternate {
+	background-image: url("../images/explore-1.jpg");
+}
+
+.explore-2-panel-alternate {
+	background-image: url("../images/explore-2.jpg");
+}
+
+.explore-3-panel-alternate  {
+	background-image: url("../images/explore-3.jpg");
+}
+
+.explore-4-panel-alternate  {
+	background-image: url("../images/explore-4.jpg");
+	-webkit-filter: brightness(80%);
+}
+
+.explore-1-panel,
+.explore-4-panel {
+	width: 100vw;
+	height: 50vh;
+}
+
+.explore-2-panel,
+.explore-3-panel {
+	width: 50vw;
+	height: 100vh;
+}
+
+.explore-1-panel-alternate,
+.explore-2-panel-alternate,
+.explore-3-panel-alternate,
+.explore-4-panel-alternate {
+	width: 100vw;
+	height: 100vh;
+}
+
+.explore-1-panel {
+	left: -25vw;
+}
+
+.explore-1-panel-alternate,
+.menu-1-curtain {
+	left: -25vw;
+	top: -15vh;
+}
+
+.explore-1-panel.transition {
+	top: 85vh;
+	transition: top 200ms ease-out;
+}
+
+.explore-1:hover .explore-1-panel.transition {
+	top: 35vh;
+	transition: top 200ms ease-in;
+}
+
+.explore-2-panel {
+	top: -15vh;
+}
+
+.explore-2-panel-alternate,
+.menu-2-curtain {
+	right: -25vw;
+	top: -15vh;
+}
+
+.explore-2-panel.transition {
+	right: 75vw;
+	transition: right 200ms ease-out;
+}
+
+.explore-2:hover .explore-2-panel.transition {
+	right: 25vw;
+	transition: right 200ms ease-in;
+}
+
+.explore-3-panel {
+	bottom: -15vh;
+}
+
+.explore-3-panel-alternate {
+	left: -25vw;
+	bottom: -15vh;
+}
+
+.menu-3-curtain {
+	left: -25vw;
+	bottom: 77vh;
+}
+
+.explore-3-panel.transition {
+	left: 75vw;
+	transition: left 200ms ease-out;
+}
+
+.explore-3:hover .explore-3-panel.transition {
+	left: 25vw;
+	transition: left 200ms ease-in;
+}
+
+.explore-4-panel {
+	right: -25vw;
+}
+
+.explore-4-panel-alternate {
+	right: -25vw;
+	bottom: -15vh;
+}
+
+.menu-4-curtain {
+	right: -25vw;
+	bottom: 77vh
+}
+
+.explore-4-panel.transition {
+	bottom: 85vh;
+	transition: bottom 200ms ease-out;
+}
+
+.explore-4:hover .explore-4-panel.transition {
+	bottom: 35vh;
+	transition: bottom 200ms ease-in;
+}
+
+.explore-1 .explore-1-panel,
+.explore-2 .explore-2-panel,
+.explore-3 .explore-3-panel,
+.explore-4 .explore-4-panel,
+.explore-1 .explore-1-panel-alternate,
+.explore-2 .explore-2-panel-alternate,
+.explore-3 .explore-3-panel-alternate,
+.explore-4 .explore-4-panel-alternate,
+.menu-1-curtain,
+.menu-2-curtain,
+.menu-3-curtain,
+.menu-4-curtain {
+	opacity: 0;
+	z-index: -1;
+	transition: z-index 200ms step-end, opacity 200ms ease-out;
+}
+
+.explore-1:hover .explore-1-panel,
+.explore-2:hover .explore-2-panel,
+.explore-3:hover .explore-3-panel,
+.explore-4:hover .explore-4-panel,
+.explore-1:hover .menu-1-curtain,
+.explore-2:hover .menu-2-curtain,
+.explore-3:hover .menu-3-curtain,
+.explore-4:hover .menu-4-curtain {
+	opacity: 1;
+	z-index: 5;
+	transition: z-index 200ms step-start, opacity 200ms ease-in;
+}
+
+.explore-1:hover .explore-1-panel-alternate,
+.explore-2:hover .explore-2-panel-alternate,
+.explore-3:hover .explore-3-panel-alternate,
+.explore-4:hover .explore-4-panel-alternate {
+	opacity: 1;
+	z-index: 4;
+	transition: z-index 200ms step-start, opacity 200ms ease-in;
+}
