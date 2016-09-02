@@ -6,8 +6,8 @@ Real estate website created for the project in Java Web Programming Diploma for 
 ### index.html
 MUST HAVE
 - ~~Home section~~
-- ~~Advantage section with 4 subpanels~~
-- Testimonial section
+- ~~Advantage section~~
+- ~~Testimonial section~~
 - Availability section with 3 slides
   - Condo
   - House

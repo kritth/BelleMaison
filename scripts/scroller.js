@@ -21,9 +21,9 @@ function validateOnScroll() {
 		addDarkHeader(menuPanel);
 	} else if (document.body.scrollTop >= $('.section-2').offset().top
 			&& document.body.scrollTop < $('.section-3').offset().top) {
-		addDarkHeader(menuPanel);
-	} else if (menuPanel.hasClass("title-menu-dark")) {
 		addLightHeader(menuPanel);
+	} else if (!menuPanel.hasClass("title-menu-dark")) {
+		addDarkHeader(menuPanel);
 	}
 	
 	/* Change logo opacity and color */
@@ -68,7 +68,10 @@ function validateOnScroll() {
 	}
 	
 	/* Change style to always active if in the section */
-	if (document.body.scrollTop >= $('.section-4').offset().top) {
+	if (document.body.scrollTop >= $('.section-5').offset().top) {
+		removeAllBut(5);
+	} else if (document.body.scrollTop >= $('.section-4').offset().top
+			&& document.body.scrollTop < $('.section-5').offset().top) {
 		removeAllBut(4);
 	} else if (document.body.scrollTop >= $('.section-3').offset().top
 			&& document.body.scrollTop < $('.section-4').offset().top) {
@@ -173,6 +176,12 @@ function removeAllBut(n) {
 				btn3.removeClass("btn-active");
 				btn4.addClass("btn-active");
 			}
+			break;
+		default:
+			btn1.removeClass("btn-active");
+			btn2.removeClass("btn-active");
+			btn3.removeClass("btn-active");
+			btn4.removeClass("btn-active");
 			break;
 	}
 }
