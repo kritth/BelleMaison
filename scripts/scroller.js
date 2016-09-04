@@ -32,7 +32,6 @@ function validateOnScroll() {
 		if (logo.css("opacity") != 1) {
 			logo.css("opacity", 1);
 		}
-		
 		if (document.body.scrollTop >= $('.section-4').offset().top) {
 			if (logo.hasClass("invert")) {
 				logo.removeClass("invert");

@@ -8,23 +8,23 @@ MUST HAVE
 - ~~Home section~~
 - ~~Advantage section~~
 - ~~Testimonial section~~
-- Availability section with 3 slides
-  - Condo
-  - House
-  - Vacant Land
+- ~~Availability section with 3 slides~~
+  - ~~Condo~~
+  - ~~House~~
+  - ~~Vacant Land~~
 - Contact section at the very bottom of the page
-- List of availability can be clicked
-  - Availability detail of each item brings up new div containing all details
+- ~~List of availability can be clicked~~
+  - ~~Availability detail of each item brings up new div containing all details~~
   - Has option to calculate loan
-- Partners slides up div with list of partners
+- ~~Partners slides up div with list of partners~~ CUT
 - Reach us slides up div with information of physical location
 - Include digital clock on the right side of header
 
 ### Nice to have goodies:
 #### index.html
 High Priority
-- JS: Testimonial slide show, automatically changes every 10 seconds, and can force change it as well.
-- JS/CSS: Create backdrop for footer.
+- ~~JS: Testimonial slide show, automatically changes every 10 seconds, and can force change it as well.~~ CUT
+- ~~JS/CSS: Create backdrop for footer.~~ CUT
 
 Low Priority
 - JS: Switch from buttons on header to dropdown menu under certain size.

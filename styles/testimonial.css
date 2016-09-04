@@ -29,6 +29,7 @@ div.testimonial-title div.text-title {
 	font-weight: 600;
 	letter-spacing: 5px;
 	display: block;
+	white-space: nowrap;
 }
 
 div.testimonial-box {

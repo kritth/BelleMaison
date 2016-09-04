@@ -81,6 +81,7 @@ img {
 .layer-4 { z-index: 4; }
 .layer-5 { z-index: 5; }
 .layer-6 { z-index: 6; }
+.layer-title { z-index: 900; }
 .layer-top { z-index: 999; }
 
 /***********************HEADER SECTION****************************/
