@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<title>Belle Maison Real Estate</title>
+		<link rel="shortcut icon" href="images/logo.png">
 		<link rel="stylesheet" type="text/css" href="styles/jquery.fullPage.css">
 		<link rel="stylesheet" type="text/css" href="styles/main.css">
 		<link rel="stylesheet" type="text/css" href="styles/explore.css">
 		<link rel="stylesheet" type="text/css" href="styles/testimonial.css">
 		<link rel="stylesheet" type="text/css" href="styles/availability.css">
+		<link rel="stylesheet" type="text/css" href="styles/contact.css">
 	</head>
 	<body>
 		<a name="section-1" style="position: absolute; top: 0;"></a>
 		<header class="header layer-title">
-			<img src="images/logo.png" class="page-logo">
+			<img src="images/logo.png" class="page-logo" alt="Belle Maison">
 			<div class="title-section default-position">
 				<div class="header-menu title-menu-light">
 					<a href="#section-1"><button class="no-style default-position section-1-btn btn-non-active-light">Home</button></a>
@@ -31,7 +33,7 @@
 						data-anchor-target=".parallax-1"
 						data-smooth-scrolling="off">
 						<div class="title-section floating-box default-position">
-							<img src="images/logo.png">
+							<img src="images/logo.png" alt="Logo">
 							<h1><span>B</span>ELLE <span>M</span>AISON</h1>
 							<p>One click for the first step in your home</p>
 						</div>
@@ -48,7 +50,7 @@
 					</div>
 					<div class="explore-icon explore-1">
 						<div class="icon-background">
-							<img src="images/support-icon.png" class="icon-1">
+							<img src="images/support-icon.png" class="icon-1" alt="24/7">
 						</div>
 						<div class="explore-1-panel transition">
 							<div class="text-wrapper">
@@ -72,7 +74,7 @@
 					</div>
 					<div class="explore-icon explore-2">
 						<div class="icon-background">
-							<img src="images/land-icon.png" class="icon-2">
+							<img src="images/land-icon.png" class="icon-2" alt="Connection">
 						</div>
 						<div class="explore-2-panel transition">
 							<div class="text-wrapper">
@@ -96,7 +98,7 @@
 					</div>
 					<div class="explore-icon explore-3">
 						<div class="icon-background">
-							<img src="images/fast-icon.png" class="icon-3">
+							<img src="images/fast-icon.png" class="icon-3" alt="Quick">
 						</div>
 						<div class="explore-3-panel transition">
 							<div class="text-wrapper">
@@ -120,7 +122,7 @@
 					</div>
 					<div class="explore-icon explore-4">
 						<div class="icon-background">
-							<img src="images/house-icon.png" class="icon-4">
+							<img src="images/house-icon.png" class="icon-4" alt="Wide Selection">
 						</div>
 						<div class="explore-4-panel transition">
 							<div class="text-wrapper">
@@ -165,7 +167,7 @@
 					</div>
 					
 					<div class="testimonial-title layer-3">
-						<div class="text-title">Customer satisfactions</div>
+						<div class="text-title">CUSTOMER SATISFACTIONS</div>
 					</div>
 					<div class="testimonial-box layer-3">
 						<div class="column default-position">
@@ -546,12 +548,66 @@
 			</div>
 			<div class="section section-5">
 				<a name="section-5" style="top: 100%; position: absolute;"></a>
+				<div class="parallax parallax-5">
+					<div class="bgimg img-5 fixed-background default-position layer-2"
+						data-center="background-position: 50% 100px;"
+						data-top-bottom="background-position: 50% -100px;"
+						data-bottom-top="background-position: 50% 300px;"
+						data-anchor-target=".parallax-5"
+						data-smooth-scrolling="off">
+						<div class="contact-title bold default-position">
+							CONTACT INFORMATION
+						</div>
+						<div class="contact-div">
+							<div class="col1">
+							</div>
+							<div class="col2">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5592.69111485852!2d-73.56944900000002!3d45.503122!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3310dc373f37c73f!2sMontreal+College+of+Information+Technology!5e0!3m2!1sen!2sin!4v1473076323217" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+							</div>
+							<div class="col3">
+								<p>
+									<span class="bold">Belle Maison @<br>
+									Montreal College of Information Technology</span>
+								</p>
+								<p>
+									#501, 1255 Boulevard Robert-Bourassa<br>
+									Montreal, Quebec, H3B3V8
+								</p>
+								<p>
+									Tel: 514-312-2383<br>
+									Fax: (866) 907-3431<br>
+									Email: info@montrealcollege.ca
+								</p>
+								<p>
+									Hours: 9 am To 9 pm (Monday to Friday)<br>
+									9 am To 4 pm (Saturday and Sunday)
+								</p>
+							</div>
+							<div class="col4">
+								<form id="inquiryForm" method="post">
+									<span class="bold">Have a question?</span>
+									<input type="text" name="firstName" id="firstName" placeholder="First name" required>
+									<input type="text" name="lastName" id="lastName" placeholder="Last name" required>
+									<input type="email" name="email" id="email" placeholder="E-mail address" required>
+									<input type="text" name="address" id="address" placeholder="Home address" required>
+									<textarea name="inquiry" rows="10" id="inquiry" cols="40" placeholder="Your inquiry less than 1000 characters" maxlength="1000" required></textarea>
+									<br>
+									<input type="submit" name="custom-submit" value="Send" onclick="validate(event)">
+									<input type="reset" name="custom-reset" value="Clear" onclick="resetPlaceHolder()">
+								</form>
+							</div>
+							<div class="col5">
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		
 		<footer class="layer-title">
 			<div class="footer-menu footer-menu-light">
 				<a href="#section-5"><button class="no-style default-position">Reach us</button></a>
+				<button class="no-style default-position" id="date-time">Reach us</button>
 			</div>
 		</footer>
 		

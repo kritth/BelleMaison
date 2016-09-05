@@ -15,6 +15,9 @@ function validateOnScroll() {
 	/* Change text color for header */
 	var menuPanel = $('.header-menu');
 	if (document.body.scrollTop >= $('.section-4').offset().top) {
+		addDarkHeader(menuPanel);
+	} else if (document.body.scrollTop >= $('.section-4').offset().top
+			&& document.body.scrollTop < $('.section-5').offset().top) {
 		addLightHeader(menuPanel);
 	} else if (document.body.scrollTop >= $('.section-3').offset().top
 			&& document.body.scrollTop < $('.section-4').offset().top) {
@@ -54,7 +57,10 @@ function validateOnScroll() {
 	/* Change text color for footer */
 	var footerPanel = $('.footer-menu');
 	var scrollBottom = $(window).scrollTop() + $(window).height();
-	if (scrollBottom > $('.section-4').offset().top) {
+	if (scrollBottom > $('.section-5').offset().top) {
+		addLightFooter(footerPanel);
+	} else if (scrollBottom > $('.section-4').offset().top
+			&& scrollBottom <= $('.section-5').offset().top) {
 		addLightFooter(footerPanel);
 	} else if (scrollBottom > $('.section-3').offset().top
 			&& scrollBottom <= $('.section-4').offset().top) {

@@ -74,6 +74,21 @@ img {
 	z-index: 1;
 }
 
+.fp-controlArrow.fp-next,
+.fp-controlArrow.fp-prev {
+	-webkit-transition: -webkit-filter 200ms linear;
+}
+
+.fp-controlArrow.fp-next:hover,
+.fp-controlArrow.fp-prev:hover {
+	-webkit-filter: invert(100%);
+	-webkit-transition: -webkit-filter 200ms linear;
+}
+
+.bold {
+	font-weight: 600;
+}
+
 .layer-bottom { z-index: -1; }
 .layer-1 { z-index: 1; }
 .layer-2 { z-index: 2; }
@@ -158,7 +173,6 @@ div.title-menu-dark {
 	border-bottom: 2px solid rgb(124, 148, 92);
 }
 
-
 /***********************FOOTER SECTION****************************/
 footer {
 	position: fixed;
@@ -187,6 +201,15 @@ footer {
 
 .footer-menu-dark button:hover {
 	color: white
+}
+
+#date-time {
+	float: right;
+	position: absolute;
+	right: 20px;
+	font-weight: 600;
+	font-size: 80%;
+	width: auto;
 }
 
 /***********************HOME SECTION******************************/

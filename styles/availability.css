@@ -13,13 +13,6 @@ div.avail_title_text {
 	-webkit-user-select: none;
 }
 
-.img-5 {
-	margin-top: -100px;
-	height: 30vh;
-	min-height: 200px;
-	background-image: url("../images/article_header01.jpg");
-}
-
 .header-curtain {
 	background: -webkit-linear-gradient(left, rgba(125,185,232,0) 10%,rgba(0, 0, 0, 0.3) 33%,rgba(0, 0, 0 ,0.3) 66%,rgba(125,185,232,0) 90%);
 	height: 60px;

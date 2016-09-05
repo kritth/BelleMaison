@@ -1,0 +1,110 @@
+.section-5 {
+	background-color: black;
+}
+
+.img-5 {
+	background-image: url("../images/white-commercial-real-estate.jpg");
+	height: 100vh;
+	width: 100vw;
+}
+
+.contact-title {
+	color: black;
+	top: 100px;
+	width: 100vw;
+	font-size: 200%;
+	letter-spacing: 10px;
+	text-align: center;
+}
+
+.contact-div {
+	position: absolute;
+	display: table;
+	width: 100vw;
+	height: 60vh;
+	bottom: 80px;
+}
+
+.contact-div .col1,
+.contact-div .col2,
+.contact-div .col3,
+.contact-div .col4,
+.contact-div .col5 {
+	display: table-cell;
+	vertical-align: top;
+}
+
+.contact-div .col1,
+.contact-div .col5 {
+	width: 5vw;
+}
+
+.contact-div .col2,
+.contact-div .col3,
+.contact-div .col4 {
+	width: 30vw;
+	padding: 20px;
+}
+
+.contact-div .col2 {
+	text-align: center;
+}
+
+.contact-div .col3,
+.contact-div .col4 {
+	color: black;
+	line-height: 30px;
+}
+
+.contact-div span {
+	margin-bottom: 15px;
+}
+
+.contact-div .col4 input[type=text],
+.contact-div .col4 input[type=email] {
+	display: block;
+	width: 300px;
+	margin-bottom: 15px;
+}
+
+.contact-div .col4 input[type=submit],
+.contact-div .col4 input[type=reset] {
+	display: inline-block;
+	background:none;
+	border: none;
+	color: black;
+	padding-top: 5px;
+	border-top: 2px solid rgba(0, 0, 0, 0.5);
+	width: 140px;
+	font-weight: 600;
+}
+
+.contact-div .col4 input[type=submit]:hover,
+.contact-div .col4 input[type=reset]:hover {
+	color: rgb(153, 153, 153);
+	border-top: 2px solid rgba(153, 153, 153, 0.5);
+}
+
+.contact-div .col4 input[type=submit]:active,
+.contact-div .col4 input[type=reset]:active {
+	color: rgb(74, 98, 22);
+	border-top: 2px solid rgba(74, 98, 22, 0.5);
+}
+
+.contact-div .col4 input[type=submit]:focus,
+.contact-div .col4 input[type=reset]:focus {
+	outline: none;
+}
+
+.contact-div .col4 input[type=reset] {
+	margin-left: 20px;
+}
+
+.contact-div .col4 textarea {
+	resize: none;
+	margin-bottom: 15px;
+}
+
+.input-missing::-webkit-input-placeholder {
+	color: red;
+}
