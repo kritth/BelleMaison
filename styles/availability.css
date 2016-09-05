@@ -129,7 +129,7 @@ div.detailTable {
 }
 
 div.detailTable::-webkit-scrollbar {
-	width: 10px;
+	width: 15px;
 }
 div.detailTable::-webkit-scrollbar-track {
 	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
@@ -228,4 +228,23 @@ div.detailRowTitle {
 .arrowRight {
 	margin-right: 16px;
 	float: right;
+}
+
+.expression {
+	border: none;
+	outline: none;
+	background: none;
+	width: 150px;
+	cursor: pointer;
+}
+
+.expression:hover {
+	color: rgb(74, 98, 22);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: -5px;
+	margin-bottom: -5px;
+	border-top: 1px solid rgba(74, 98, 22, 0.3);
+	border-bottom: 1px solid rgba(74, 98, 22, 0.3);
+	background-color: rgba(74, 98, 22, 0.1);
 }
