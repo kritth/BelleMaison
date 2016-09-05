@@ -1,5 +1,5 @@
 // JSON data
-var data = JSON.parse('{  "house": [ {   "id": 28960375,   "address": "34805 Rue Rachel, Pierrefonds-Roxboro (Montréal), Quebec, H8Y2C6",   "neighborhood": "Pierrefonds/East",   "bathroom": 2,   "bedroom": 4,   "space": 6068,   "price": 314500,   "detail": {  "description": "Lovely 3+1 bedroom Bungalow for sale within walking distance of the Sunnybrook train station, parks, schools, gym and much more. Close to highway 13, Bois-de-Liesse nature park and other services. Hardwood floors throughout the main floor, spacious finished basement with second kitchen, 4th bedroom and lots of storage space.No right side neighbors.",  "maintenanceFee": 0,  "amenities": [    "Highway",    "Park",    "Schools",    "Public Transit"  ],  "features": [    "Double width or more driveway",    "Paved driveway"  ],  "contact": {    "name": "George Lallis",    "company": "ROYAL LEPAGE ALLIANCE",    "address": "2 - 1631 rue de Salaberry, Montréal, QC, H3M1K3",    "phone": "514-745-4430",    "website": ""  }   } }, {   "id": 27652393,   "address": "1020 45e Avenue, Rivière-des-Prairies/Pointe-aux-Trembles (Montréal), Quebec, H1A3W4",   "neighborhood": "Pointe-aux-Trembles",   "bathroom": 2,   "bedroom": 4,   "space": 8099,   "price": 329000,   "detail": {  "description": "Dans un secteur très paisible avec un superbe grand terrain, voici une belle maison de 4 chambres, 2 salles de bains et sous-sol fini avec sortie extérieure arrière. Très bien entretenue, un seul propriétaire depuis le début. Venez la visiter, vous l aimerez!",  "maintenanceFee": 0,  "amenities": [    "Highway",    "Golf Course",    "Schools",    "Public Transit"  ],  "features": [    "Paved driveway",    "PVC window",    "Sliding windows"  ],  "contact": {    "name": "Lise Venne",    "company": "RE/MAX CITÉ INC.",    "address": "13150 Sherbrooke E., Pointe-aux-Trembles, QC, H1A4B1",    "phone": "514-644-0000",    "website": "remax-cite.com/"  }   } }  ],  "mobile": [ {   "id": 25716385,   "address": "3950 Boul. Sir-Wilfrid-Laurier, #205, Saint-Hubert (Longueuil), Quebec, J3Y5Y9",   "neighborhood": "Sir-Wilfrid-Laurier",   "bathroom": 0,   "bedroom": 0,   "space": 0,   "price": 37000,   "detail": {  "description": "Maison mobile en construction de 16 pieds x 70 pieds + annexe! Terrain en location. -Dépôt de 2000,00$ et l Annexe du Vendeur sont requis avec toute offre soumise.",  "maintenanceFee": 0,  "amenities": [    "Highway",    "Hospital",    "Park",    "Schools",    "Public Transit"  ],  "features": [    "Paved driveway"  ],  "contact": {    "name": "Lynda Laroche",    "company": "ROYAL LEPAGE TRADITION - Saint-Hubert",    "address": "202 - 3120 Boul. Moïse-Vincent, Saint-Hubert, QC, J3Z0C4",    "phone": "450-656-9000",    "website": "www.royallepagetradition.net/"  }   } }  ],  "condos": [    {      "id": 19831083,      "address": "5100 Rue Dudemaine, #409, Ahuntsic-Cartierville (Montréal), Quebec, H4J1N8",      "neighborhood": "Cartierville",      "bathroom": 1,      "bedroom": 1,      "space": 595,   "price": 87000,      "detail": {        "description": "Live in your own condo for the same price of the rent Condo fees include heating, hot water,maintenance and building insurance Near to Sacré-Coeur hospital the train and subway Bus at the door to metro Côte Vertu located 5 minutes to shopping center,school Condo presently rented $530.00/month Condo is not available for showing until 08 sept. 2016",        "maintenanceFee": 237,  "amenities": [          "Highway",          "CEGEP",          "Golf Course",          "Hospital",          "Park",          "Schools",          "Public Transit",          "University"        ],  "features": [    "Melamine cupboard",    "PVC window",    "Sliding windows"  ],        "contact": {          "name": "Ivka Raic",    "company": "EXCEL IMMOBILIER INC.",          "address": "1485 rue de Collège Saint-Laurent, QC, H4L2L8",          "phone": "514-747-1221",          "website": "www.excelimmobilier.ca/fr/"        }      }    }, {      "id": 22897239,      "address": "3040 Boul. Tessier, #173, Chomedey (Laval), Quebec, H7S2L9",      "neighborhood": "Domaine Renaud",      "bathroom": 1,      "bedroom": 1,      "space": 346.7,   "price": 85900,      "detail": {        "description": "Domaine Renaud, condo bien situé, secteur paisible et recherché. Tout est à proximité : Centre Laval, Carrefour Laval, commerces, restaurants, écoles, parcs. Accès facile aux autoroutes. À 6mn du métro Montmorency en auto. Ensoleillé et bien entretenu. Idéal pour propriétaire-occupant à petit budget ou investisseur. **loué à 575$ au 30 juin 2017**",        "maintenanceFee": 72,  "amenities": [          "Highway",          "CEGEP",          "Schools",          "Public Transit",          "University"        ],  "features": [    "Inground pool"  ],          "contact": {          "name": "Khadija Kebboua",    "company": "PROPRIO DIRECT",          "address": "200 - 3899 aut. des Laurentides, Laval, QC, H7L3H7",          "phone": "514-856-4444",          "website": "https://propriodirect.com/"        }      }    }, {   "id": 17260406,   "address": "4908 Rue Ste-Catherine E., #6, Mercier/Hochelaga-Maisonneuve (Montréal), Quebec, H1V1Z8",   "neighborhood": "Hochelaga-Maisonneuve",   "bathroom": 1,   "bedroom": 1,   "space": 222,   "price": 89000,   "detail": {  "description": "Petit condo au 2e étage,style LOFT,entièrement rénové et convertie en 2010,plafond de 8.3 pieds,plancher en lattes de merisier,céramique cuisine et salle de bains,fenêtre thermos à manivelle,porte d extérieur en acier vitrée balcon en fibre de verre,armoires cuisine-thermoplastique comptoir en céramique,eau chaude fournie par la copropriété,motivé",  "maintenanceFee": 180,  "amenities": [    "Highway",    "CEGEP",    "Hospital",    "Park",    "Schools",    "Public Transit"  ],  "features": [    "Aluminium window",    "PVC window",    "Crank windows"  ],  "contact": {    "name": "Eugen Butucariu",    "company": "RE/MAX ALLIANCE E.B.",    "address": "3299 Beaubien E., Montréal, QC, H1X1G4",    "phone": "514-374-4000",    "website": ""  }   } }  ]}');
+var data = JSON.parse('{  "house": [	{	  "id": 28960375,	  "address": "34805 Rue Rachel, Pierrefonds-Roxboro (Montréal), Quebec, H8Y2C6",	  "neighborhood": "Pierrefonds/East",	  "bathroom": 2,	  "bedroom": 4,	  "space": 6068,	  "price": 314500,	  "detail": {		"description": "Lovely 3+1 bedroom Bungalow for sale within walking distance of the Sunnybrook train station, parks, schools, gym and much more. Close to highway 13, Bois-de-Liesse nature park and other services. Hardwood floors throughout the main floor, spacious finished basement with second kitchen, 4th bedroom and lots of storage space.No right side neighbors.",		"maintenanceFee": 0,		"amenities": [		  "Highway",		  "Park",		  "Schools",		  "Public Transit"		],		"features": [		  "Double width or more driveway",		  "Paved driveway"		],		"contact": {		  "name": "George Lallis",		  "company": "ROYAL LEPAGE ALLIANCE",		  "address": "2 - 1631 rue de Salaberry, Montréal, QC, H3M1K3",		  "phone": "514-745-4430",		  "website": ""		},		"images": [			"28960375_1.jpg",			"28960375_2.jpg",			"28960375_3.jpg",			"28960375_4.jpg"		]	  }	},	{	  "id": 27652393,	  "address": "1020 45e Avenue, Rivière-des-Prairies/Pointe-aux-Trembles (Montréal), Quebec, H1A3W4",	  "neighborhood": "Pointe-aux-Trembles",	  "bathroom": 2,	  "bedroom": 4,	  "space": 8099,	  "price": 329000,	  "detail": {		"description": "Dans un secteur très paisible avec un superbe grand terrain, voici une belle maison de 4 chambres, 2 salles de bains et sous-sol fini avec sortie extérieure arrière. Très bien entretenue, un seul propriétaire depuis le début. Venez la visiter, vous l aimerez!",		"maintenanceFee": 0,		"amenities": [		  "Highway",		  "Golf Course",		  "Schools",		  "Public Transit"		],		"features": [		  "Paved driveway",		  "PVC window",		  "Sliding windows"		],		"contact": {		  "name": "Lise Venne",		  "company": "RE/MAX CITÉ INC.",		  "address": "13150 Sherbrooke E., Pointe-aux-Trembles, QC, H1A4B1",		  "phone": "514-644-0000",		  "website": "http:\/\/remax-cite.com/"		},		"images": [			"27652393_2.jpg",			"27652393_6.jpg",			"27652393_7.jpg",			"27652393_8.jpg"		]	  }	}  ],  "mobile": [	{	  "id": 25716385,	  "address": "3950 Boul. Sir-Wilfrid-Laurier, #205, Saint-Hubert (Longueuil), Quebec, J3Y5Y9",	  "neighborhood": "Sir-Wilfrid-Laurier",	  "bathroom": 0,	  "bedroom": 0,	  "space": 0,	  "price": 37000,	  "detail": {		"description": "Maison mobile en construction de 16 pieds x 70 pieds + annexe! Terrain en location. -Dépôt de 2000,00$ et l Annexe du Vendeur sont requis avec toute offre soumise.",		"maintenanceFee": 0,		"amenities": [		  "Highway",		  "Hospital",		  "Park",		  "Schools",		  "Public Transit"		],		"features": [		  "Paved driveway"		],		"contact": {		  "name": "Lynda Laroche",		  "company": "ROYAL LEPAGE TRADITION - Saint-Hubert",		  "address": "202 - 3120 Boul. Moïse-Vincent, Saint-Hubert, QC, J3Z0C4",		  "phone": "450-656-9000",		  "website": "http:\/\/www.royallepagetradition.net/"		},		"images": [			"25716385_3.jpg",			"25716385_5.jpg",			"25716385_6.jpg",			"25716385_8.jpg"		]	  }	}  ],  "condos": [    {      "id": 19831083,      "address": "5100 Rue Dudemaine, #409, Ahuntsic-Cartierville (Montréal), Quebec, H4J1N8",      "neighborhood": "Cartierville",      "bathroom": 1,      "bedroom": 1,      "space": 595,	  "price": 87000,      "detail": {        "description": "Live in your own condo for the same price of the rent Condo fees include heating, hot water,maintenance and building insurance Near to Sacré-Coeur hospital the train and subway Bus at the door to metro Côte Vertu located 5 minutes to shopping center,school Condo presently rented $530.00/month Condo is not available for showing until 08 sept. 2016",        "maintenanceFee": 237,		"amenities": [          "Highway",          "CEGEP",          "Golf Course",          "Hospital",          "Park",          "Schools",          "Public Transit",          "University"        ],		"features": [		  "Melamine cupboard",		  "PVC window",		  "Sliding windows"		],        "contact": {          "name": "Ivka Raic",		  "company": "EXCEL IMMOBILIER INC.",          "address": "1485 rue de Collège Saint-Laurent, QC, H4L2L8",          "phone": "514-747-1221",          "website": "http:\/\/www.excelimmobilier.ca/fr/"        },		"images": [			"198310831.jpg",			"198310832.jpg",			"198310833.jpg"		]      }    },	{      "id": 22897239,      "address": "3040 Boul. Tessier, #173, Chomedey (Laval), Quebec, H7S2L9",      "neighborhood": "Domaine Renaud",      "bathroom": 1,      "bedroom": 1,      "space": 346.7,	  "price": 85900,      "detail": {        "description": "Domaine Renaud, condo bien situé, secteur paisible et recherché. Tout est à proximité : Centre Laval, Carrefour Laval, commerces, restaurants, écoles, parcs. Accès facile aux autoroutes. À 6mn du métro Montmorency en auto. Ensoleillé et bien entretenu. Idéal pour propriétaire-occupant à petit budget ou investisseur. **loué à 575$ au 30 juin 2017**",        "maintenanceFee": 72,		"amenities": [          "Highway",          "CEGEP",          "Schools",          "Public Transit",          "University"        ],		"features": [		  "Inground pool"		],		        "contact": {          "name": "Khadija Kebboua",		  "company": "PROPRIO DIRECT",          "address": "200 - 3899 aut. des Laurentides, Laval, QC, H7L3H7",          "phone": "514-856-4444",          "website": "https:\/\/propriodirect.com/"        },		"images": [			"22897239_1.jpg",			"22897239_2.jpg",			"22897239_3.jpg",			"22897239_4.jpg"		]      }    },	{	  "id": 17260406,	  "address": "4908 Rue Ste-Catherine E., #6, Mercier/Hochelaga-Maisonneuve (Montréal), Quebec, H1V1Z8",	  "neighborhood": "Hochelaga-Maisonneuve",	  "bathroom": 1,	  "bedroom": 1,	  "space": 222,	  "price": 89000,	  "detail": {		"description": "Petit condo au 2e étage,style LOFT,entièrement rénové et convertie en 2010,plafond de 8.3 pieds,plancher en lattes de merisier,céramique cuisine et salle de bains,fenêtre thermos à manivelle,porte d extérieur en acier vitrée balcon en fibre de verre,armoires cuisine-thermoplastique comptoir en céramique,eau chaude fournie par la copropriété,motivé",		"maintenanceFee": 180,		"amenities": [		  "Highway",		  "CEGEP",		  "Hospital",		  "Park",		  "Schools",		  "Public Transit"		],		"features": [		  "Aluminium window",		  "PVC window",		  "Crank windows"		],		"contact": {		  "name": "Eugen Butucariu",		  "company": "RE/MAX ALLIANCE E.B.",		  "address": "3299 Beaubien E., Montréal, QC, H1X1G4",		  "phone": "514-374-4000",		  "website": ""		},		"images": [			"17260406_1.jpg",			"17260406_2.jpg",			"17260406_3.jpg",			"17260406_4.jpg"		]	  }	}  ]}');
 
 $(document).ready(function(){
 	// Parse house data
@@ -23,7 +23,7 @@ $(document).ready(function(){
 			<td><div class="layer-2">' + data.condos[key].neighborhood + '</div></td>\
 			<td><div class="layer-2">' + data.condos[key].bedroom + '</div></td>\
 			<td><div class="layer-2">' + data.condos[key].bathroom + '</div></td>\
-			<td><div class="layer-2">' + (data.condos[key].space == 0 ? 'no information' : data.condos[key].space + ' sqft.') + '</div></td>\
+			<td><div class="layer-2">' + (data.condos[key].space == 0 ? 'No information' : data.condos[key].space + ' sqft.') + '</div></td>\
 			<td><div class="layer-2">$' + data.condos[key].price + '</div></td>\
         </tr>');
 	}
@@ -36,7 +36,7 @@ $(document).ready(function(){
 			<td><div class="layer-2">' + data.mobile[key].neighborhood + '</div></td>\
 			<td><div class="layer-2">' + data.mobile[key].bedroom + '</div></td>\
 			<td><div class="layer-2">' + data.mobile[key].bathroom + '</div></td>\
-			<td><div class="layer-2">' + (data.mobile[key].space == 0 ? 'no information' : data.mobile[key].space + ' sqft.') + '</div></td>\
+			<td><div class="layer-2">' + (data.mobile[key].space == 0 ? 'No information' : data.mobile[key].space + ' sqft.') + '</div></td>\
 			<td><div class="layer-2">$' + data.mobile[key].price + '</div></td>\
         </tr>');
 	}
@@ -44,7 +44,8 @@ $(document).ready(function(){
 
 // Detail div open and close
 
-function openDetail(estateType, id) {
+function openDetail(estateType, id) {	
+	// Checking type
 	var detailData;
 	if (estateType == 'condos') {
 		for (var key in data.condos) {
@@ -71,37 +72,32 @@ function openDetail(estateType, id) {
 	
 	/*
 		Fill in data
-	<div class="detailPhoto">
-	<div class="detailId">
-	<div class="detailAddress">
-	<div class="detailNeighborhood">
-	<div class="detailBath">
-	<div class="detailBed">
-	<div class="detailSpace">
-	<div class="detailPrice">
-	<div class="detailDescription">
-	<div class="detailFee">
-	<div class="detailAmenties">
-	<div class="detailFeatures">
-	<div class="detailContactName">
-	<div class="detailContactCompany">
-	<div class="detailContactAddress">
-	<div class="detailContactPhone">
-	<div class="detailContactWeb">
 	 */
 	$('.detailId').html(detailData.id);
 	$('.detailAddress').html(detailData.address);
 	$('.detailNeighborhood').html(detailData.neighborhood);
 	$('.detailBath').html(detailData.bathroom);
 	$('.detailBed').html(detailData.bedroom);
-	$('.detailSpace').html(detailData.space + ' sqft.');
 	$('.detailPrice').html('$' + detailData.price);
 	$('.detailDescription').html(detailData.detail.description);
-	$('.detailFee').html('$' + detailData.detail.maintenanceFee + '/month');
 	$('.detailContactName').html(detailData.detail.contact.name);
 	$('.detailContactCompany').html(detailData.detail.contact.company);
 	$('.detailContactAddress').html(detailData.detail.contact.address);
 	$('.detailContactPhone').html(detailData.detail.contact.phone);
+	
+	// Build Space
+	if (detailData.space > 0) {
+		$('.detailSpace').html(detailData.space + ' sqft.');
+	} else {
+		$('.detailSpace').html('No information given');
+	}
+	
+	// Build maintenance fees
+	if (detailData.detail.maintenanceFee > 0) {
+		$('.detailFee').html('$' + detailData.detail.maintenanceFee + '/month');
+	} else {
+		$('.detailFee').html('None');
+	}
 	
 	// Build website
 	if (detailData.detail.contact.website != '') {
@@ -111,10 +107,11 @@ function openDetail(estateType, id) {
 		} else {
 			website = 'http://' + detailData.detail.contact.website;
 		}
-		$('.detailContactWeb').html('<a href="' + website + '">Click here to visit the website</a>');
+		$('.detailContactWeb').html('<a href="' + website + '" target="_blank">Click here to visit the website</a>');
 	} else {
 		$('.detailContactWeb').html('none');
 	}
+	
 	// Build amenties
 	var amenitiesList = '<ul>';
 	for (var amenity in detailData.detail.amenities) {
@@ -131,6 +128,15 @@ function openDetail(estateType, id) {
 	featuresList += '</ul>';
 	$('.detailFeatures').html(featuresList);
 	
+	// Build Gallery
+	var imagesList = '';
+	for (var image in detailData.detail.images) {
+		imagesList += '<img class="imageSlide" src="images/estate/' + detailData.id + '/' + detailData.detail.images[image] + '">';
+	}
+	imagesList += '<div class="arrow arrowLeft layer-4" onclick="plusDivs(-1)">&#10094;</div>'
+		+ '<div class="arrow arrowRight layer-4" onclick="plusDivs(1)">&#10095;</div>'; // create arrow
+	$('.detailPhoto').html(imagesList);
+	
 	// Turn on div
 	$('.detailBg').css('opacity', '1');
 	$('.detailDiv').css('opacity', '1');
@@ -138,6 +144,15 @@ function openDetail(estateType, id) {
 	$('.detailBg').css('pointer-events', 'auto');
 	$('.detailDiv').css('pointer-events', 'auto');
 	$('.detailCloseButton').css('pointer-events', 'auto');
+	
+	// Set default loan amount
+	updateValue(detailData.price);
+	calculateLoan();
+	slideIndex = 1;
+	showDivs(slideIndex);
+	
+	// Scroll up
+	$('.detailTable').scrollTop(0);
 }
 
 function closeDetail() {
@@ -164,3 +179,72 @@ $(document).keyup(function(e) {
         closeDetail();
     }
 });
+
+// Auto calculate loan
+var loanAmount = $("#loanAmount").val();
+
+$("#loanAmount").on('keyup change click', function () {
+    if(this.value !== loanAmount) {
+        loanAmount = this.value;
+		calculateLoan();
+    }        
+});
+
+var loanInterest = $("#loanInterest").val();
+
+$("#loanInterest").on('keyup change click', function () {
+    if(this.value !== loanInterest) {
+        loanInterest = this.value;
+		calculateLoan();
+    }
+});
+
+var loanDuration = $("#loanDuration").val();
+
+$("#loanDuration").on('keyup change click', function () {
+    if(this.value !== loanDuration) {
+        loanDuration = this.value;
+		calculateLoan();
+    }        
+});
+
+function updateValue(price) {
+	$('#loanAmount').val(price);
+	$('#loanInterest').val(5);
+	$('#loanDuration').val(5);
+	loanAmount = price;
+	loanInterest = 5;
+	loanDuration = 5;
+}
+
+function calculateLoan() {
+	var rate = loanInterest / 100 / 12;
+	var monthlyPayment = (loanAmount * rate) / (1 - (1 / (Math.pow((1 + rate), 12 * loanDuration))));
+	$('.detailMonthlyPayment').html('$' + monthlyPayment.toFixed(2));
+}
+
+$(document).ready(function(){
+	calculateLoan();
+});
+
+// Gallery slide show
+var slideIndex = 1;
+
+function plusDivs(n) {
+	showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+	showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+	var i;
+	var x = document.getElementsByClassName("imageSlide");
+	if (n > x.length) {slideIndex = 1}
+	if (n < 1) {slideIndex = x.length}
+	for (i = 0; i < x.length; i++) {
+		x[i].style.display = "none";
+	}
+	x[slideIndex-1].style.display = "block";
+}

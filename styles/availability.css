@@ -125,13 +125,14 @@ div.detailTable {
 	padding: 1%;
 	position: absolute;
 	margin: 0 auto;
-	top: 6%;
+	top: 4%;
 	left: 2%;
 	width: 94%;
-	height: 86%;
+	height: 90%;
 	font-size: 90%;
 	overflow-y: scroll;
 	display: block;
+	line-height: 160%;
 }
 
 div.detailTable::-webkit-scrollbar {
@@ -156,13 +157,14 @@ div.detailRow {
 	display: table;
 	padding: 10px;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-	pointer-events: none;
 }
 
 div.detailRowTitle {
 	width: 180px;
 	vertical-align: top;
 	display: table-cell;
+	-webkit-user-select: none;
+	cursor: context-menu;
 }
 
 .detailAmenities ul,
@@ -175,7 +177,7 @@ div.detailRowTitle {
 .detailCloseButton {
 	position: absolute;
 	top: 15px;
-	right: 15px;
+	right: 3%;
 	opacity: 0;
 	cursor: pointer;
 }
@@ -189,4 +191,48 @@ div.detailRowTitle {
 	font-size: 150%;
 	margin-left: -15px;
 	margin-top: 10px;
+	-webkit-user-select: none;
+	cursor: context-menu;
+}
+
+.detailPhoto {
+	width: 90%;
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.imageSlide {
+	height: 100%;
+	width: auto;
+	display: none;
+	margin: 0 auto;
+}
+
+.arrow {
+	color: black;
+	margin-top: -220px;
+	font-size: 200%;
+	cursor: pointer;
+	height: 34px;
+	width: 30px;
+	border-radius: 50%;
+	background-color: rgba(203, 203, 203, 0.65);
+	padding-left: 16px;
+	padding-top: 12px;
+	-webkit-user-select: none;
+}
+
+.arrow:hover {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.65);
+}
+
+.arrowLeft {
+	float: left;
+}
+
+.arrowRight {
+	margin-right: 16px;
+	float: right;
 }
