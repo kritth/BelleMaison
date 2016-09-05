@@ -15,10 +15,10 @@ MUST HAVE
 - ~~Contact section at the very bottom of the page~~
 - ~~List of availability can be clicked~~
   - ~~Availability detail of each item brings up new div containing all details~~
-  - ~~ Has option to calculate loan~~
+  - ~~Has option to calculate loan~~
 - ~~Partners slides up div with list of partners~~ CUT
 - ~~Reach us slides up div with information of physical location~~
-- ~~Include digital clock on the right side of footer~
+- ~~Include digital clock on the right side of footer~~
 
 ### Nice to have goodies:
 #### index.html
