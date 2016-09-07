@@ -7,6 +7,7 @@ function validate(e) {
 	var ln = ($('#lastName').val());
 	var em = ($('#email').val());
 	var ad = ($('#address').val());
+	var mls = ($('#mls').val());
 	var inq = ($('#inquiry').val());
 	
 	// Send
@@ -20,6 +21,7 @@ function validate(e) {
 				lastName: ln,
 				email: em,
 				address: ad,
+				mlsNumber: mls,
 				inquiry: inq
 			},
 			
@@ -32,6 +34,9 @@ function validate(e) {
 		
 		// Reset placeholder
 		resetPlaceHolder();
+		
+		// Notification
+		alert("Your inquiry has been sent. We'll reply back as soon as possible.");
 		
 	} else {
 		// Custom error message
@@ -69,15 +74,15 @@ function validate(e) {
 // Reset placeholder
 function resetPlaceHolder() {
 	$('#firstName').removeClass('input-missing');
-	$('#firstName').attr('placeholder', 'First name');
+	$('#firstName').attr('placeholder', 'First name *');
 	$('#lastName').removeClass('input-missing');
-	$('#lastName').attr('placeholder', 'Last name');
+	$('#lastName').attr('placeholder', 'Last name *');
 	$('#email').removeClass('input-missing');
-	$('#email').attr('placeholder', 'Home address');
+	$('#email').attr('placeholder', 'E-mail address *');
 	$('#address').removeClass('input-missing');
-	$('#address').attr('placeholder', 'Home address');
+	$('#address').attr('placeholder', 'Home address *');
 	$('#inquiry').removeClass('input-missing');
-	$('#inquiry').attr('placeholder', 'Your inquiry less than 1000 characters');
+	$('#inquiry').attr('placeholder', 'Your inquiry less than 1000 characters *');
 }
 
 // Validate email

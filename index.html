@@ -503,7 +503,7 @@
 							</div>
 							<div class="detailRow">
 								<div class="detailRowTitle">
-									<button class="expression">I'm interested</button>
+									<button class="expression" onclick="goToForm()">I'm interested</button>
 									<button class="expression" onclick="closeDetail()">Not interest</button>
 								</div>
 							</div>
@@ -597,11 +597,12 @@
 							<div class="col4">
 								<form id="inquiryForm" method="post">
 									<span class="bold">Have a question?</span>
-									<input type="text" name="firstName" id="firstName" placeholder="First name" required>
-									<input type="text" name="lastName" id="lastName" placeholder="Last name" required>
-									<input type="email" name="email" id="email" placeholder="E-mail address" required>
-									<input type="text" name="address" id="address" placeholder="Home address" required>
-									<textarea name="inquiry" rows="10" id="inquiry" cols="40" placeholder="Your inquiry less than 1000 characters" maxlength="1000" required></textarea>
+									<input type="text" name="firstName" id="firstName" placeholder="First name *" required>
+									<input type="text" name="lastName" id="lastName" placeholder="Last name *" required>
+									<input type="email" name="email" id="email" placeholder="E-mail address *" required>
+									<input type="text" name="address" id="address" placeholder="Home address *" required>
+									<input type="text" name="mls" id ="mls" placeholder="MLS number">
+									<textarea name="inquiry" rows="10" id="inquiry" cols="40" placeholder="Your inquiry less than 1000 characters *" maxlength="1000" required></textarea>
 									<br>
 									<input type="submit" name="custom-submit" value="Send" onclick="validate(event)">
 									<input type="reset" name="custom-reset" value="Clear" onclick="resetPlaceHolder()">

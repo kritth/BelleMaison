@@ -245,3 +245,10 @@ function showDivs(n) {
 	}
 	x[slideIndex-1].style.display = "block";
 }
+
+// I'm interested button functionality
+function goToForm() {
+	$('#mls').val($('.detailId').text());
+	closeDetail();
+	$('html,body').animate({'scrollTop': $(document).height() }, 'slow');
+}
