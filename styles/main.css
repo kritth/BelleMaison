@@ -230,7 +230,7 @@ div.floating-box {
 }
 
 div.title-section {
-	color: rgb(203, 203, 203);
+	color: white;
 	margin: 0 auto;
 	width: 50vw;
 	min-width: 600px;
@@ -239,7 +239,7 @@ div.title-section {
 
 div.title-section img {
 	margin-bottom: -50px;
-	-webkit-filter: invert(100%);
+	-webkit-filter: brightness(0) invert(100%);
 }
 
 div.title-section h1 {

@@ -1,16 +1,10 @@
+// Global variable to use
 var btn1 = $('.section-1-btn');
 var btn2 = $('.section-2-btn');
 var btn3 = $('.section-3-btn');
 var btn4 = $('.section-4-btn');
 
-$(document).ready(function() {
-	validateOnScroll();
-});
-
-$(document).scroll(function (e) {	
-	validateOnScroll();
-});
-
+// Validation on scrolling
 function validateOnScroll() {
 	/* Change text color for header */
 	var menuPanel = $('.header-menu');
@@ -190,3 +184,12 @@ function removeAllBut(n) {
 			break;
 	}
 }
+
+// Event handlers
+$(document).ready(function() {
+	validateOnScroll();
+});
+
+$(document).scroll(function (e) {	
+	validateOnScroll();
+});
