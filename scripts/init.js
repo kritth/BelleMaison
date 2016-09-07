@@ -9,6 +9,7 @@ $(document).ready(function() {
 	// Check height on ready
 	toggleTitle();
 	
+	// Make the page appear when javascript is enabled
 	$("#script-required").css('visibility', 'visible');
 });
 
