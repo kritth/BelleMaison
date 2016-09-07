@@ -85,6 +85,12 @@ img {
 	-webkit-transition: -webkit-filter 200ms linear;
 }
 
+.fp-controlArrow.fp-next:active,
+.fp-controlArrow.fp-prev:active {
+	-webkit-filter: invert(50%);
+	-webkit-transition: -webkit-filter 200ms linear;
+}
+
 .bold {
 	font-weight: 600;
 }

@@ -8,6 +8,8 @@ $(document).ready(function() {
 	});
 	// Check height on ready
 	toggleTitle();
+	
+	$("#script-required").css('visibility', 'visible');
 });
 
 // Init skrollr for parallax
