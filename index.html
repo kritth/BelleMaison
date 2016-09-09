@@ -377,6 +377,9 @@
 							</div>
 							<div class="detailTable">
 								<div class="detailRow">
+									<div class="detailAnchor top">
+										<span onclick="scrollDetailBottom()">scroll to bottom</span>
+									</div>
 									<div class="detailSectionTitle">
 										Gallery
 									</div>
@@ -516,8 +519,8 @@
 											Loan Amount (dollars):
 										</div>
 										<div class="detailLoanAmount">
-											<input type="number" name="rate" min="0" max="100" style="width: 100px; text-align: right; pointer-events: none; background-color: rgb(230, 230, 230);"
-												id="loanAmount">
+											<input type="number" name="rate" min="0" max="100000000" style="width: 100px; text-align: right;"
+												id="loanAmount" disabled>
 										</div>
 									</div>
 									<div class="detailRow">
@@ -555,6 +558,11 @@
 									<div class="detailRowTitle">
 										<button class="expression" onclick="goToForm()">I'm interested</button>
 										<button class="expression" onclick="closeDetail()">Not interest</button>
+									</div>
+								</div>
+								<div class="detailRow" style="border-bottom: 0px;">
+									<div class="detailAnchor bottom">
+										<span onclick="scrollDetailTop()">scroll to top</a>
 									</div>
 								</div>
 							</div>
@@ -618,9 +626,8 @@
 					<a name="section-5" style="top: 100%; position: absolute;"></a>
 					<div class="parallax parallax-5">
 						<div class="bgimg img-5 fixed-background default-position layer-2"
-							data-center="background-position: 50% 100px;"
-							data-top-bottom="background-position: 50% -100px;"
-							data-bottom-top="background-position: 50% 300px;"
+							data-center="background-position: 50% 200px;"
+							data-top-bottom="background-position: 50% -10px;"
 							data-anchor-target=".parallax-5"
 							data-smooth-scrolling="off">
 							<div class="contact-title bold default-position">

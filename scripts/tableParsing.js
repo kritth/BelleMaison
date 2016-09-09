@@ -156,7 +156,6 @@ function openDetail(estateType, id) {
 function closeDetail() {
 	$('.detailBg').css('opacity', '0');
 	$('.detailDiv').css('opacity', '0');
-	$('.detailCloseButton').css('opacity', '1');
 	$('.detailBg').css('pointer-events', 'none');
 	$('.detailDiv').css('pointer-events', 'none');
 	$('.detailCloseButton').css('pointer-events', 'none');
@@ -207,11 +206,7 @@ $("#loanDuration").on('keyup change click', function () {
 
 function updateValue(price) {
 	$('#loanAmount').val(price);
-	$('#loanInterest').val(5);
-	$('#loanDuration').val(5);
 	loanAmount = price;
-	loanInterest = 5;
-	loanDuration = 5;
 }
 
 function calculateLoan() {
@@ -251,4 +246,12 @@ function goToForm() {
 	$('#mls').val($('.detailId').text());
 	closeDetail();
 	$('html,body').animate({'scrollTop': $(document).height() }, 'slow');
+}
+
+// Scrolling div on click
+function scrollDetailTop() {
+	$('.detailTable').animate({'scrollTop': 0}, 'slow');
+}
+function scrollDetailBottom() {
+	$('.detailTable').animate({'scrollTop': $('.detailTable')[0].scrollHeight}, 'slow');
 }

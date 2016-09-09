@@ -164,6 +164,40 @@ div.detailRowTitle {
 	cursor: context-menu;
 }
 
+div.detailAnchor {
+	font-size: 80%;
+	text-align: right;
+}
+
+div.detailAnchor.top {
+	margin-top: -20px;
+	margin-bottom: -30px;
+}
+
+div.detailAnchor.bottom {
+	margin-top: 0px;
+	margin-bottom: -30px;
+}
+
+div.detailAnchor span {
+	color: rgba(0, 0, 0, 0.5);
+	border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+}
+
+div.detailAnchor span:hover {
+	color: rgba(70, 90, 20, 1);
+	border-bottom: 1px dotted rgba(70, 90, 20, 1);
+}
+
+div.detailAnchor span:active {
+	color: rgba(0, 0, 0, 0.8);
+}
+
+div.detailToBottom:active {
+	color: rgba(0, 0, 0, 0.5);
+}
+
 .detailAmenities ul,
 .detailFeatures ul {
 	margin-top: 0;
